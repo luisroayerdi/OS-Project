@@ -1,0 +1,12 @@
+# build / environment
+build/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# results: smoke runs, temp files, and processed tables are not committed
+results/raw/*-smoke/
+results/raw/*/.tmp/
+*.part
+results/processed/
