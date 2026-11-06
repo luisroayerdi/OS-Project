@@ -5,7 +5,7 @@ Fill in names and machine labels first:
 | Role | Name | `SYSTEM` label | Machine (CPU, cores, RAM, OS) |
 |---|---|---|---|
 | Member A, Portfolio | _____ | _____ | _____ |
-| Member B, Expert selection | _____ | _____ | _____ |
+| Member B, Expert selection | Hemal | `hemal-u9-285h` | Intel Core Ultra 9 285H, 16 cores, no SMT (6 at 5.4 GHz, 8 at 4.5 GHz, 2 at 2.5 GHz), 30.8 GB RAM, Omarchy Linux (kernel 7.2.8) |
 | Member C, RL selection | _____ | _____ | _____ |
 
 Ground rules:
