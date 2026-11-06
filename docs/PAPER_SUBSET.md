@@ -14,7 +14,7 @@ and the report.
 | Chunk parameter semantics (§2): `max(chunk_alg, chunk_param)`; static/dynamic take it literally | same |
 | Two chunk settings: default and **expChunk** | same |
 | Expert selection: RandomSel (Pj = LIB/10), ExhaustiveSel, ExpertSel (§3.2) | same |
-| Oracle = best fixed algorithm per loop (§3.3) | same, computed offline in `aggregate.py` |
+| Oracle = best choice across application, loop, time-step and system (§3.3, Table 2) | fastest fixed configuration at each time-step of each loop, computed offline in `aggregate.py`. The paper does not give the calculation. The best fixed configuration per loop is also reported |
 | RL: Q-Learn and SARSA, states = actions = algorithms (12 × 12 = 144 Q entries) | same |
 | Rewards LT and LIB, r+ = 0.01, r0 = −2, r− = −4 (Eq. 11) | same |
 | α = γ = 0.5, α-decay 0.05, explore-first (144 instances) | same |

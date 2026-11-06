@@ -106,7 +106,7 @@ Record every choice the paper does not pin down. These feed the "differences" se
 
 | Date | Who | Decision | Reason / source |
 |---|---|---|---|
-| 2026-11-03 | setup | Oracle = per loop, best fixed (algorithm, chunk mode) by median total time; Oracle total = sum over loops | paper §3.3 + Table 2 ("ideal combination … across application loops") |
+| 2026-11-06 | B | Oracle = fastest (algorithm, chunk mode) at each time-step of each loop, using each configuration's median over repetitions; total = sum over loops and time-steps. Best fixed per loop is also reported as `median_s_fixed`. Replaces the 2026-11-03 per-loop definition | Paper §3.3 ("across all combinations of application, loop, time-step, and system"), Table 2 ("across application loops, and time-steps"), and Fig. 7, where Oracle changes between instances. The paper does not give the calculation, so this is our reading. A minimum per time-step also picks up noise |
 | 2026-11-03 | setup | Mandelbrot L1 zooms into (−0.7436, 0.1318) over T steps, L2 is the reverse | paper gives no coordinates |
 | 2026-11-03 | setup | STREAM/SS-type runs capped at `max_seconds` and extrapolated | laptop time budget |
 | 2026-11-06 | A | Auto(LLVM) maps to `kmp_sch_guided_analytical_chunked`: chunk ≈ R/(2P) (factor x = 1 − 0.5/P), fixed chunks of c after the cross-over point, plain dynamic if (2c+1)·P ≥ N | LLVM `kmp_global.cpp`: `__kmp_auto = kmp_sch_guided_analytical_chunked`; `kmp_dispatch.cpp`: `case kmp_sch_auto: schedule = __kmp_auto` |

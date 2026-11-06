@@ -52,9 +52,10 @@ One row per **loop instance** (time-step × loop):
 | `loop_instances.csv.gz` | loop instance (all raw rows + `section`) | as raw |
 | `run_totals.csv` | run | `total_s` (sum over loops and steps, extrapolated if truncated), `truncated`, `label` |
 | `summary.csv` | configuration | `median_s`, `mean_s`, `std_s`, `n_reps`, `label` |
-| `oracle.csv` | (system, app) | `median_s` of the Oracle |
+| `oracle.csv` | (system, app) | `median_s` (per time-step Oracle), `median_s_fixed` (best fixed configuration per loop), `n_configs` |
 | `oracle_choices.csv` | (system, app, loop) | best fixed `algo`, `chunk_mode` |
-| `degradation.csv` | configuration + Oracle | `degradation_pct = (median − oracle)/oracle·100` |
+| `oracle_timestep_choices.csv.gz` | (system, app, loop, time-step) | Oracle's `algo`, `chunk_mode`, `t_par_s` |
+| `degradation.csv` | configuration + Oracle | `degradation_pct = (median − oracle)/oracle·100`, and `degradation_fixed_pct` against `median_s_fixed` |
 | `fig4_cov.csv` | (system, app) | `cov` |
 
 `label` uses the paper's naming: `SS`, `SS,34` (fixed with expChunk = 34), `Q-learn,LT,expChunk`, ….
