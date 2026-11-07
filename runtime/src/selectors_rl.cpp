@@ -111,11 +111,12 @@ class RLAgent : public Selector {
   }
 
   // Next action index: explore plan first, then greedy argmax_a Q(s, a)
-  // (ties -> lowest portfolio index). alpha decays every greedy instance.
+  // (ties -> lowest portfolio index). alpha decays linearly every greedy
+  // instance and reaches 0, which freezes Q and gives a stable selection.
   int choose() {
     const int t = step_++;
     if (t < static_cast<int>(explore_plan_.size())) return explore_plan_[t];
-    alpha_ = std::max(kAlphaFloor, alpha_ * (1.0 - cfg_.alpha_decay));
+    alpha_ = std::max(0.0, alpha_ - cfg_.alpha_decay);  // subtractive: 0.5 -> 0 in 10 steps
     return greedy(prev_);
   }
 
@@ -136,8 +137,6 @@ class RLAgent : public Selector {
       if (cfg_.portfolio[i] == a) return i;
     return -1;
   }
-
-  static constexpr double kAlphaFloor = 0.01;
 
   SelectorConfig cfg_;
   int K_;
