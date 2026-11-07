@@ -14,7 +14,6 @@ and the report.
 | Chunk parameter semantics (§2): `max(chunk_alg, chunk_param)`; static/dynamic take it literally | same |
 | Two chunk settings: default and **expChunk** | same |
 | Expert selection: RandomSel (Pj = LIB/10), ExhaustiveSel, ExpertSel (§3.2) | same |
-| Oracle = best fixed algorithm per loop (§3.3) | same, computed offline in `aggregate.py` |
 | RL: Q-Learn and SARSA, states = actions = algorithms (12 × 12 = 144 Q entries) | same |
 | Rewards LT and LIB, r+ = 0.01, r0 = −2, r− = −4 (Eq. 11) | same |
 | α = γ = 0.5, α-decay 0.05, explore-first (144 instances) | same |
@@ -36,6 +35,7 @@ and the report.
 | Thread pinning `OMP_PROC_BIND=close` | Linux: pinned; **macOS: not possible** (no affinity API) | OS limitation; write it up as a source of difference |
 | SPHYNX in Fig. 1/2/6/8 | Mandelbrot L0/L1 | SPHYNX not included |
 | Extreme runs (STREAM+SS) take hours | runs are capped at `max_seconds` and extrapolated linearly, flagged `truncated` | otherwise one configuration would take most of a night |
+| Oracle across application, loop, time-step and system (§3.3, Table 2) | best fixed (algorithm, chunk mode) per loop, computed offline in `aggregate.py`. It does not change by time-step | keeps the existing baseline in the shared `aggregate.py`. On `hemal-u9-285h`, a per time-step Oracle is 0.8–2.2 % lower |
 
 ## Figure mapping
 
