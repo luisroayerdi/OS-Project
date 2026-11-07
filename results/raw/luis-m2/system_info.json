@@ -1,0 +1,16 @@
+{
+  "system": "luis-m2",
+  "collected_at": "2026-11-07T04:28:56+00:00",
+  "os": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "python": "3.15.1",
+  "logical_cpus": 8,
+  "physical_cores": 8,
+  "compiler": "Apple clang version 17.0.0 (clang-1700.0.13.3)",
+  "git_commit": "c3af650",
+  "cpu": "Apple M2",
+  "memory_gb": 16.0,
+  "performance_cores": 4,
+  "efficiency_cores": 4,
+  "thread_pinning": "not available on macOS"
+}

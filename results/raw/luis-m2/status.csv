@@ -1,0 +1,307 @@
+time,job,status,exit_code,wall_s,message
+2026-11-06T21:59:40,luis-m2/fixed/mandelbrot__fixed-AutoLLVM__default__rep0.csv.gz,ok,0,5.1,[lb_bench] mandelbrot fixed:AutoLLVM chunk=default P=8 steps=500/500 loop_time=5.08966s checksum=10864106
+2026-11-06T21:59:44,luis-m2/rl/stream__sarsa-LT__default__rep0.csv.gz,ok,0,3.9,[lb_bench] stream sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=3.88974s checksum=7168.0
+2026-11-06T21:59:45,luis-m2/expert/stream__expertsel__default__rep0.csv.gz,ok,0,1.1,[lb_bench] stream expertsel chunk=default P=8 steps=500/500 loop_time=1.1135s checksum=7168.0
+2026-11-06T21:59:46,luis-m2/fixed/stream__fixed-AWF-B__exp__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-B chunk=exp P=8 steps=500/500 loop_time=0.898532s checksum=7168.0
+2026-11-06T21:59:51,luis-m2/fixed/mandelbrot__fixed-StaticSteal__exp__rep0.csv.gz,ok,0,4.7,[lb_bench] mandelbrot fixed:StaticSteal chunk=exp P=8 steps=500/500 loop_time=4.69238s checksum=10864106
+2026-11-06T21:59:58,luis-m2/expert/mandelbrot__expertsel__default__rep0.csv.gz,ok,0,7.2,[lb_bench] mandelbrot expertsel chunk=default P=8 steps=500/500 loop_time=7.17303s checksum=10864106
+2026-11-06T22:00:03,luis-m2/fixed/mandelbrot__fixed-TSS__default__rep0.csv.gz,ok,0,5.0,[lb_bench] mandelbrot fixed:TSS chunk=default P=8 steps=500/500 loop_time=5.03729s checksum=10864106
+2026-11-06T22:00:04,luis-m2/expert/stream__randomsel__exp__rep0.csv.gz,ok,0,1.3,[lb_bench] stream randomsel chunk=exp P=8 steps=500/500 loop_time=1.32089s checksum=7168.0
+2026-11-06T22:00:11,luis-m2/rl/mandelbrot__qlearn-LIB__default__rep0.csv.gz,ok,0,6.2,[lb_bench] mandelbrot qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=6.1753s checksum=10864106
+2026-11-06T22:00:11,luis-m2/fixed/stream__fixed-GSS__default__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:GSS chunk=default P=8 steps=500/500 loop_time=0.875211s checksum=7168.0
+2026-11-06T22:00:12,luis-m2/fixed/stream__fixed-AutoLLVM__exp__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AutoLLVM chunk=exp P=8 steps=500/500 loop_time=0.860418s checksum=7168.0
+2026-11-06T22:00:13,luis-m2/fixed/stream__fixed-AWF-D__default__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-D chunk=default P=8 steps=500/500 loop_time=0.872402s checksum=7168.0
+2026-11-06T22:00:20,luis-m2/expert/mandelbrot__expertsel__exp__rep0.csv.gz,ok,0,6.4,[lb_bench] mandelbrot expertsel chunk=exp P=8 steps=500/500 loop_time=6.3687s checksum=10864106
+2026-11-06T22:00:25,luis-m2/fixed/mandelbrot__fixed-AWF-D__exp__rep0.csv.gz,ok,0,5.1,[lb_bench] mandelbrot fixed:AWF-D chunk=exp P=8 steps=500/500 loop_time=5.06893s checksum=10864106
+2026-11-06T22:00:26,luis-m2/fixed/stream__fixed-AWF-D__exp__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-D chunk=exp P=8 steps=500/500 loop_time=0.861078s checksum=7168.0
+2026-11-06T22:00:30,luis-m2/fixed/mandelbrot__fixed-AWF-E__exp__rep0.csv.gz,ok,0,4.7,[lb_bench] mandelbrot fixed:AWF-E chunk=exp P=8 steps=500/500 loop_time=4.67792s checksum=10864106
+2026-11-06T22:00:31,luis-m2/fixed/stream__fixed-AWF-E__exp__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-E chunk=exp P=8 steps=500/500 loop_time=0.862552s checksum=7168.0
+2026-11-06T22:00:37,luis-m2/fixed/mandelbrot__fixed-GSS__exp__rep0.csv.gz,ok,0,5.6,[lb_bench] mandelbrot fixed:GSS chunk=exp P=8 steps=500/500 loop_time=5.56961s checksum=10864106
+2026-11-06T22:00:42,luis-m2/fixed/mandelbrot__fixed-mFAC2__exp__rep0.csv.gz,ok,0,5.0,[lb_bench] mandelbrot fixed:mFAC2 chunk=exp P=8 steps=500/500 loop_time=5.01854s checksum=10864106
+2026-11-06T22:00:47,luis-m2/expert/mandelbrot__exhaustivesel__exp__rep0.csv.gz,ok,0,4.9,[lb_bench] mandelbrot exhaustivesel chunk=exp P=8 steps=500/500 loop_time=4.92866s checksum=10864106
+2026-11-06T22:00:48,luis-m2/fixed/stream__fixed-STATIC__exp__rep0.csv.gz,ok,0,1.5,[lb_bench] stream fixed:STATIC chunk=exp P=8 steps=500/500 loop_time=1.52296s checksum=7168.0
+2026-11-06T22:01:18,luis-m2/rl/stream__qlearn-LIB__default__rep0.csv.gz,ok,0,29.3,[lb_bench] stream qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=29.333s checksum=7168.0
+2026-11-06T22:01:18,luis-m2/fixed/stream__fixed-AWF-C__default__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-C chunk=default P=8 steps=500/500 loop_time=0.870166s checksum=7168.0
+2026-11-06T22:01:23,luis-m2/fixed/mandelbrot__fixed-AWF-C__default__rep0.csv.gz,ok,0,4.5,[lb_bench] mandelbrot fixed:AWF-C chunk=default P=8 steps=500/500 loop_time=4.50862s checksum=10864106
+2026-11-06T22:01:24,luis-m2/fixed/stream__fixed-StaticSteal__exp__rep0.csv.gz,ok,0,1.0,[lb_bench] stream fixed:StaticSteal chunk=exp P=8 steps=500/500 loop_time=0.973284s checksum=7168.0
+2026-11-06T22:01:30,luis-m2/rl/mandelbrot__sarsa-LIB__default__rep0.csv.gz,ok,0,6.3,[lb_bench] mandelbrot sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=6.25708s checksum=10864106
+2026-11-06T22:01:35,luis-m2/rl/mandelbrot__qlearn-LIB__exp__rep0.csv.gz,ok,0,4.8,[lb_bench] mandelbrot qlearn chunk=exp reward=LIB P=8 steps=500/500 loop_time=4.76296s checksum=10864106
+2026-11-06T22:01:40,luis-m2/fixed/mandelbrot__fixed-GSS__default__rep0.csv.gz,ok,0,5.1,[lb_bench] mandelbrot fixed:GSS chunk=default P=8 steps=500/500 loop_time=5.13673s checksum=10864106
+2026-11-06T22:01:41,luis-m2/fixed/stream__fixed-TSS__default__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:TSS chunk=default P=8 steps=500/500 loop_time=0.846668s checksum=7168.0
+2026-11-06T22:01:47,luis-m2/fixed/mandelbrot__fixed-mAF__default__rep0.csv.gz,ok,0,6.3,[lb_bench] mandelbrot fixed:mAF chunk=default P=8 steps=500/500 loop_time=6.29671s checksum=10864106
+2026-11-06T22:01:52,luis-m2/fixed/mandelbrot__fixed-mFAC2__default__rep0.csv.gz,ok,0,4.7,[lb_bench] mandelbrot fixed:mFAC2 chunk=default P=8 steps=500/500 loop_time=4.73852s checksum=10864106
+2026-11-06T22:01:53,luis-m2/fixed/stream__fixed-AWF-B__default__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-B chunk=default P=8 steps=500/500 loop_time=0.861806s checksum=7168.0
+2026-11-06T22:02:22,luis-m2/rl/stream__sarsa-LIB__default__rep0.csv.gz,ok,0,29.0,[lb_bench] stream sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=28.9461s checksum=7168.0
+2026-11-06T22:02:27,luis-m2/fixed/mandelbrot__fixed-TSS__exp__rep0.csv.gz,ok,0,4.9,[lb_bench] mandelbrot fixed:TSS chunk=exp P=8 steps=500/500 loop_time=4.85637s checksum=10864106
+2026-11-06T22:02:34,luis-m2/expert/mandelbrot__randomsel__default__rep0.csv.gz,ok,0,7.1,[lb_bench] mandelbrot randomsel chunk=default P=8 steps=500/500 loop_time=7.04237s checksum=10864106
+2026-11-06T22:02:35,luis-m2/rl/stream__sarsa-LT__exp__rep0.csv.gz,ok,0,1.2,[lb_bench] stream sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=1.1614s checksum=7168.0
+2026-11-06T22:02:36,luis-m2/fixed/stream__fixed-STATIC__default__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:STATIC chunk=default P=8 steps=500/500 loop_time=0.838307s checksum=7168.0
+2026-11-06T22:02:41,luis-m2/rl/mandelbrot__sarsa-LIB__exp__rep0.csv.gz,ok,0,5.1,[lb_bench] mandelbrot sarsa chunk=exp reward=LIB P=8 steps=500/500 loop_time=5.12783s checksum=10864106
+2026-11-06T22:02:46,luis-m2/expert/mandelbrot__exhaustivesel__default__rep0.csv.gz,ok,0,4.7,[lb_bench] mandelbrot exhaustivesel chunk=default P=8 steps=500/500 loop_time=4.64282s checksum=10864106
+2026-11-06T22:02:51,luis-m2/fixed/mandelbrot__fixed-StaticSteal__default__rep0.csv.gz,ok,0,4.9,[lb_bench] mandelbrot fixed:StaticSteal chunk=default P=8 steps=500/500 loop_time=4.90279s checksum=10864106
+2026-11-06T22:02:55,luis-m2/fixed/mandelbrot__fixed-AWF-B__default__rep0.csv.gz,ok,0,4.8,[lb_bench] mandelbrot fixed:AWF-B chunk=default P=8 steps=500/500 loop_time=4.8373s checksum=10864106
+2026-11-06T22:02:56,luis-m2/fixed/stream__fixed-mAF__exp__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:mAF chunk=exp P=8 steps=500/500 loop_time=0.848802s checksum=7168.0
+2026-11-06T22:03:01,luis-m2/rl/mandelbrot__sarsa-LT__exp__rep0.csv.gz,ok,0,5.0,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=4.94371s checksum=10864106
+2026-11-06T22:03:06,luis-m2/fixed/mandelbrot__fixed-AutoLLVM__exp__rep0.csv.gz,ok,0,4.5,[lb_bench] mandelbrot fixed:AutoLLVM chunk=exp P=8 steps=500/500 loop_time=4.47788s checksum=10864106
+2026-11-06T22:03:07,luis-m2/fixed/stream__fixed-GSS__exp__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:GSS chunk=exp P=8 steps=500/500 loop_time=0.853801s checksum=7168.0
+2026-11-06T22:03:08,luis-m2/expert/stream__randomsel__default__rep0.csv.gz,ok,0,1.4,[lb_bench] stream randomsel chunk=default P=8 steps=500/500 loop_time=1.35036s checksum=7168.0
+2026-11-06T22:03:12,luis-m2/fixed/stream__fixed-StaticSteal__default__rep0.csv.gz,ok,0,3.7,[lb_bench] stream fixed:StaticSteal chunk=default P=8 steps=500/500 loop_time=3.72307s checksum=7168.0
+2026-11-06T22:03:18,luis-m2/fixed/mandelbrot__fixed-STATIC__exp__rep0.csv.gz,ok,0,6.4,[lb_bench] mandelbrot fixed:STATIC chunk=exp P=8 steps=500/500 loop_time=6.37914s checksum=10864106
+2026-11-06T22:03:19,luis-m2/expert/stream__exhaustivesel__default__rep0.csv.gz,ok,0,1.0,[lb_bench] stream exhaustivesel chunk=default P=8 steps=500/500 loop_time=1.01316s checksum=7168.0
+2026-11-06T22:03:20,luis-m2/fixed/stream__fixed-AWF-E__default__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-E chunk=default P=8 steps=500/500 loop_time=0.867548s checksum=7168.0
+2026-11-06T22:03:21,luis-m2/fixed/stream__fixed-mAF__default__rep0.csv.gz,ok,0,0.8,[lb_bench] stream fixed:mAF chunk=default P=8 steps=500/500 loop_time=0.798448s checksum=7168.0
+2026-11-06T22:03:22,luis-m2/expert/stream__exhaustivesel__exp__rep0.csv.gz,ok,0,0.9,[lb_bench] stream exhaustivesel chunk=exp P=8 steps=500/500 loop_time=0.86004s checksum=7168.0
+2026-11-06T22:03:23,luis-m2/rl/stream__sarsa-LIB__exp__rep0.csv.gz,ok,0,1.3,[lb_bench] stream sarsa chunk=exp reward=LIB P=8 steps=500/500 loop_time=1.31288s checksum=7168.0
+2026-11-06T22:03:24,luis-m2/fixed/stream__fixed-AWF-C__exp__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-C chunk=exp P=8 steps=500/500 loop_time=0.863761s checksum=7168.0
+2026-11-06T22:03:29,luis-m2/fixed/mandelbrot__fixed-SS__exp__rep0.csv.gz,ok,0,4.8,[lb_bench] mandelbrot fixed:SS chunk=exp P=8 steps=500/500 loop_time=4.74932s checksum=10864106
+2026-11-06T22:03:33,luis-m2/fixed/mandelbrot__fixed-AWF-C__exp__rep0.csv.gz,ok,0,4.6,[lb_bench] mandelbrot fixed:AWF-C chunk=exp P=8 steps=500/500 loop_time=4.54968s checksum=10864106
+2026-11-06T22:03:34,luis-m2/fixed/stream__fixed-mFAC2__default__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:mFAC2 chunk=default P=8 steps=500/500 loop_time=0.858476s checksum=7168.0
+2026-11-06T22:03:39,luis-m2/fixed/mandelbrot__fixed-AWF-D__default__rep0.csv.gz,ok,0,4.8,[lb_bench] mandelbrot fixed:AWF-D chunk=default P=8 steps=500/500 loop_time=4.79348s checksum=10864106
+2026-11-06T22:03:45,luis-m2/fixed/mandelbrot__fixed-mAF__exp__rep0.csv.gz,ok,0,5.8,[lb_bench] mandelbrot fixed:mAF chunk=exp P=8 steps=500/500 loop_time=5.80127s checksum=10864106
+2026-11-06T22:03:49,luis-m2/fixed/mandelbrot__fixed-AWF-B__exp__rep0.csv.gz,ok,0,4.8,[lb_bench] mandelbrot fixed:AWF-B chunk=exp P=8 steps=500/500 loop_time=4.7757s checksum=10864106
+2026-11-06T22:03:50,luis-m2/fixed/stream__fixed-AutoLLVM__default__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AutoLLVM chunk=default P=8 steps=500/500 loop_time=0.858808s checksum=7168.0
+2026-11-06T22:03:51,luis-m2/rl/stream__qlearn-LIB__exp__rep0.csv.gz,ok,0,1.0,[lb_bench] stream qlearn chunk=exp reward=LIB P=8 steps=500/500 loop_time=0.992604s checksum=7168.0
+2026-11-06T22:03:59,luis-m2/fixed/mandelbrot__fixed-SS__default__rep0.csv.gz,ok,0,7.9,[lb_bench] mandelbrot fixed:SS chunk=default P=8 steps=500/500 loop_time=7.90294s checksum=10864106
+2026-11-06T22:04:00,luis-m2/fixed/stream__fixed-TSS__exp__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:TSS chunk=exp P=8 steps=500/500 loop_time=0.85137s checksum=7168.0
+2026-11-06T22:04:02,luis-m2/expert/stream__expertsel__exp__rep0.csv.gz,ok,0,1.8,[lb_bench] stream expertsel chunk=exp P=8 steps=500/500 loop_time=1.75281s checksum=7168.0
+2026-11-06T22:04:07,luis-m2/expert/mandelbrot__randomsel__exp__rep0.csv.gz,ok,0,4.8,[lb_bench] mandelbrot randomsel chunk=exp P=8 steps=500/500 loop_time=4.78929s checksum=10864106
+2026-11-06T22:04:11,luis-m2/rl/stream__qlearn-LT__default__rep0.csv.gz,ok,0,4.7,[lb_bench] stream qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=4.62982s checksum=7168.0
+2026-11-06T22:04:16,luis-m2/rl/mandelbrot__qlearn-LT__exp__rep0.csv.gz,ok,0,4.9,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=4.92932s checksum=10864106
+2026-11-06T22:04:18,luis-m2/fixed/stream__fixed-SS__exp__rep0.csv.gz,ok,0,1.5,[lb_bench] stream fixed:SS chunk=exp P=8 steps=500/500 loop_time=1.47048s checksum=7168.0
+2026-11-06T22:04:23,luis-m2/rl/mandelbrot__sarsa-LT__default__rep0.csv.gz,ok,0,5.4,[lb_bench] mandelbrot sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=5.41602s checksum=10864106
+2026-11-06T22:04:24,luis-m2/rl/stream__qlearn-LT__exp__rep0.csv.gz,ok,0,0.9,[lb_bench] stream qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=0.879433s checksum=7168.0
+2026-11-06T22:04:25,luis-m2/fixed/stream__fixed-mFAC2__exp__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:mFAC2 chunk=exp P=8 steps=500/500 loop_time=0.854961s checksum=7168.0
+2026-11-06T22:04:29,luis-m2/fixed/mandelbrot__fixed-AWF-E__default__rep0.csv.gz,ok,0,4.6,[lb_bench] mandelbrot fixed:AWF-E chunk=default P=8 steps=500/500 loop_time=4.56023s checksum=10864106
+2026-11-06T22:04:37,luis-m2/fixed/mandelbrot__fixed-STATIC__default__rep0.csv.gz,ok,0,7.0,[lb_bench] mandelbrot fixed:STATIC chunk=default P=8 steps=500/500 loop_time=7.0015s checksum=10864106
+2026-11-06T22:06:07,luis-m2/fixed/stream__fixed-SS__default__rep0.csv.gz,truncated,0,90.1,[lb_bench] stream fixed:SS chunk=default P=8 steps=496/500 loop_time=90.0546s checksum=7168.0 TRUNCATED(max-seconds)
+2026-11-06T22:06:12,luis-m2/rl/mandelbrot__qlearn-LT__default__rep0.csv.gz,ok,0,5.5,[lb_bench] mandelbrot qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=5.44194s checksum=10864106
+2026-11-06T22:06:17,luis-m2/rl/mandelbrot__sarsa-LT__exp__rep1.csv.gz,ok,0,5.2,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=5.21926s checksum=10864106
+2026-11-06T22:06:18,luis-m2/fixed/stream__fixed-GSS__exp__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:GSS chunk=exp P=8 steps=500/500 loop_time=0.877089s checksum=7168.0
+2026-11-06T22:06:19,luis-m2/fixed/stream__fixed-TSS__exp__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:TSS chunk=exp P=8 steps=500/500 loop_time=0.875944s checksum=7168.0
+2026-11-06T22:06:24,luis-m2/fixed/mandelbrot__fixed-TSS__exp__rep1.csv.gz,ok,0,4.9,[lb_bench] mandelbrot fixed:TSS chunk=exp P=8 steps=500/500 loop_time=4.92994s checksum=10864106
+2026-11-06T22:06:29,luis-m2/fixed/mandelbrot__fixed-StaticSteal__default__rep1.csv.gz,ok,0,4.8,[lb_bench] mandelbrot fixed:StaticSteal chunk=default P=8 steps=500/500 loop_time=4.76772s checksum=10864106
+2026-11-06T22:06:34,luis-m2/fixed/mandelbrot__fixed-AWF-D__default__rep1.csv.gz,ok,0,4.9,[lb_bench] mandelbrot fixed:AWF-D chunk=default P=8 steps=500/500 loop_time=4.85812s checksum=10864106
+2026-11-06T22:06:35,luis-m2/expert/stream__expertsel__default__rep1.csv.gz,ok,0,1.1,[lb_bench] stream expertsel chunk=default P=8 steps=500/500 loop_time=1.04426s checksum=7168.0
+2026-11-06T22:06:40,luis-m2/fixed/mandelbrot__fixed-GSS__exp__rep1.csv.gz,ok,0,5.2,[lb_bench] mandelbrot fixed:GSS chunk=exp P=8 steps=500/500 loop_time=5.16271s checksum=10864106
+2026-11-06T22:06:41,luis-m2/fixed/stream__fixed-AWF-D__exp__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-D chunk=exp P=8 steps=500/500 loop_time=0.893461s checksum=7168.0
+2026-11-06T22:06:42,luis-m2/fixed/stream__fixed-AWF-D__default__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-D chunk=default P=8 steps=500/500 loop_time=0.888621s checksum=7168.0
+2026-11-06T22:07:01,luis-m2/rl/stream__sarsa-LIB__default__rep1.csv.gz,ok,0,19.5,[lb_bench] stream sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=19.457s checksum=7168.0
+2026-11-06T22:07:07,luis-m2/fixed/mandelbrot__fixed-mAF__exp__rep1.csv.gz,ok,0,5.7,[lb_bench] mandelbrot fixed:mAF chunk=exp P=8 steps=500/500 loop_time=5.71477s checksum=10864106
+2026-11-06T22:07:14,luis-m2/fixed/mandelbrot__fixed-STATIC__default__rep1.csv.gz,ok,0,6.9,[lb_bench] mandelbrot fixed:STATIC chunk=default P=8 steps=500/500 loop_time=6.92801s checksum=10864106
+2026-11-06T22:07:19,luis-m2/fixed/mandelbrot__fixed-mFAC2__exp__rep1.csv.gz,ok,0,4.8,[lb_bench] mandelbrot fixed:mFAC2 chunk=exp P=8 steps=500/500 loop_time=4.77855s checksum=10864106
+2026-11-06T22:07:25,luis-m2/rl/mandelbrot__qlearn-LT__default__rep1.csv.gz,ok,0,6.1,[lb_bench] mandelbrot qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=6.05228s checksum=10864106
+2026-11-06T22:07:26,luis-m2/fixed/stream__fixed-AWF-B__exp__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-B chunk=exp P=8 steps=500/500 loop_time=0.890106s checksum=7168.0
+2026-11-06T22:08:02,luis-m2/rl/stream__qlearn-LT__default__rep1.csv.gz,ok,0,36.4,[lb_bench] stream qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=36.3971s checksum=7168.0
+2026-11-06T22:08:07,luis-m2/rl/mandelbrot__sarsa-LIB__exp__rep1.csv.gz,ok,0,4.7,[lb_bench] mandelbrot sarsa chunk=exp reward=LIB P=8 steps=500/500 loop_time=4.69847s checksum=10864106
+2026-11-06T22:08:08,luis-m2/rl/stream__sarsa-LIB__exp__rep1.csv.gz,ok,0,1.1,[lb_bench] stream sarsa chunk=exp reward=LIB P=8 steps=500/500 loop_time=1.06967s checksum=7168.0
+2026-11-06T22:08:13,luis-m2/rl/mandelbrot__sarsa-LT__default__rep1.csv.gz,ok,0,5.5,[lb_bench] mandelbrot sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=5.50303s checksum=10864106
+2026-11-06T22:08:38,luis-m2/rl/stream__qlearn-LIB__default__rep1.csv.gz,ok,0,24.7,[lb_bench] stream qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=24.6768s checksum=7168.0
+2026-11-06T22:08:39,luis-m2/fixed/stream__fixed-GSS__default__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:GSS chunk=default P=8 steps=500/500 loop_time=0.883155s checksum=7168.0
+2026-11-06T22:08:43,luis-m2/rl/stream__sarsa-LT__default__rep1.csv.gz,ok,0,4.5,[lb_bench] stream sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=4.48388s checksum=7168.0
+2026-11-06T22:08:47,luis-m2/fixed/stream__fixed-StaticSteal__default__rep1.csv.gz,ok,0,3.7,[lb_bench] stream fixed:StaticSteal chunk=default P=8 steps=500/500 loop_time=3.6909s checksum=7168.0
+2026-11-06T22:08:48,luis-m2/rl/stream__qlearn-LT__exp__rep1.csv.gz,ok,0,1.2,[lb_bench] stream qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=1.17624s checksum=7168.0
+2026-11-06T22:08:53,luis-m2/rl/mandelbrot__qlearn-LIB__exp__rep1.csv.gz,ok,0,4.9,[lb_bench] mandelbrot qlearn chunk=exp reward=LIB P=8 steps=500/500 loop_time=4.85216s checksum=10864106
+2026-11-06T22:08:55,luis-m2/expert/stream__expertsel__exp__rep1.csv.gz,ok,0,1.6,[lb_bench] stream expertsel chunk=exp P=8 steps=500/500 loop_time=1.58227s checksum=7168.0
+2026-11-06T22:08:59,luis-m2/fixed/mandelbrot__fixed-AWF-E__exp__rep1.csv.gz,ok,0,4.6,[lb_bench] mandelbrot fixed:AWF-E chunk=exp P=8 steps=500/500 loop_time=4.56198s checksum=10864106
+2026-11-06T22:09:00,luis-m2/rl/stream__sarsa-LT__exp__rep1.csv.gz,ok,0,1.0,[lb_bench] stream sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=1.0145s checksum=7168.0
+2026-11-06T22:09:05,luis-m2/fixed/mandelbrot__fixed-StaticSteal__exp__rep1.csv.gz,ok,0,4.5,[lb_bench] mandelbrot fixed:StaticSteal chunk=exp P=8 steps=500/500 loop_time=4.50568s checksum=10864106
+2026-11-06T22:09:06,luis-m2/fixed/stream__fixed-AWF-E__exp__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-E chunk=exp P=8 steps=500/500 loop_time=0.885739s checksum=7168.0
+2026-11-06T22:09:11,luis-m2/fixed/mandelbrot__fixed-AWF-B__exp__rep1.csv.gz,ok,0,4.8,[lb_bench] mandelbrot fixed:AWF-B chunk=exp P=8 steps=500/500 loop_time=4.82499s checksum=10864106
+2026-11-06T22:09:18,luis-m2/expert/mandelbrot__expertsel__default__rep1.csv.gz,ok,0,7.0,[lb_bench] mandelbrot expertsel chunk=default P=8 steps=500/500 loop_time=6.94972s checksum=10864106
+2026-11-06T22:09:18,luis-m2/fixed/stream__fixed-mFAC2__default__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:mFAC2 chunk=default P=8 steps=500/500 loop_time=0.898175s checksum=7168.0
+2026-11-06T22:09:19,luis-m2/fixed/stream__fixed-AWF-E__default__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-E chunk=default P=8 steps=500/500 loop_time=0.898621s checksum=7168.0
+2026-11-06T22:09:24,luis-m2/fixed/mandelbrot__fixed-AutoLLVM__exp__rep1.csv.gz,ok,0,4.5,[lb_bench] mandelbrot fixed:AutoLLVM chunk=exp P=8 steps=500/500 loop_time=4.5361s checksum=10864106
+2026-11-06T22:09:28,luis-m2/fixed/mandelbrot__fixed-AWF-C__exp__rep1.csv.gz,ok,0,4.5,[lb_bench] mandelbrot fixed:AWF-C chunk=exp P=8 steps=500/500 loop_time=4.52769s checksum=10864106
+2026-11-06T22:09:35,luis-m2/rl/mandelbrot__qlearn-LIB__default__rep1.csv.gz,ok,0,6.2,[lb_bench] mandelbrot qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=6.22212s checksum=10864106
+2026-11-06T22:11:05,luis-m2/expert/stream__randomsel__default__rep1.csv.gz,truncated,0,90.3,[lb_bench] stream randomsel chunk=default P=8 steps=364/500 loop_time=90.2471s checksum=7168.0 TRUNCATED(max-seconds)
+2026-11-06T22:11:06,luis-m2/rl/stream__qlearn-LIB__exp__rep1.csv.gz,ok,0,1.0,[lb_bench] stream qlearn chunk=exp reward=LIB P=8 steps=500/500 loop_time=0.996915s checksum=7168.0
+2026-11-06T22:11:07,luis-m2/fixed/stream__fixed-AWF-C__exp__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-C chunk=exp P=8 steps=500/500 loop_time=0.870178s checksum=7168.0
+2026-11-06T22:11:12,luis-m2/fixed/mandelbrot__fixed-AWF-E__default__rep1.csv.gz,ok,0,4.9,[lb_bench] mandelbrot fixed:AWF-E chunk=default P=8 steps=500/500 loop_time=4.90015s checksum=10864106
+2026-11-06T22:11:16,luis-m2/expert/mandelbrot__exhaustivesel__exp__rep1.csv.gz,ok,0,4.6,[lb_bench] mandelbrot exhaustivesel chunk=exp P=8 steps=500/500 loop_time=4.62378s checksum=10864106
+2026-11-06T22:11:17,luis-m2/expert/stream__randomsel__exp__rep1.csv.gz,ok,0,0.9,[lb_bench] stream randomsel chunk=exp P=8 steps=500/500 loop_time=0.862307s checksum=7168.0
+2026-11-06T22:11:22,luis-m2/fixed/mandelbrot__fixed-GSS__default__rep1.csv.gz,ok,0,5.1,[lb_bench] mandelbrot fixed:GSS chunk=default P=8 steps=500/500 loop_time=5.10002s checksum=10864106
+2026-11-06T22:11:29,luis-m2/fixed/mandelbrot__fixed-STATIC__exp__rep1.csv.gz,ok,0,6.3,[lb_bench] mandelbrot fixed:STATIC chunk=exp P=8 steps=500/500 loop_time=6.2583s checksum=10864106
+2026-11-06T22:11:29,luis-m2/fixed/stream__fixed-TSS__default__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:TSS chunk=default P=8 steps=500/500 loop_time=0.845981s checksum=7168.0
+2026-11-06T22:11:37,luis-m2/fixed/mandelbrot__fixed-SS__default__rep1.csv.gz,ok,0,7.9,[lb_bench] mandelbrot fixed:SS chunk=default P=8 steps=500/500 loop_time=7.85709s checksum=10864106
+2026-11-06T22:11:38,luis-m2/fixed/stream__fixed-AutoLLVM__exp__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AutoLLVM chunk=exp P=8 steps=500/500 loop_time=0.855369s checksum=7168.0
+2026-11-06T22:11:43,luis-m2/fixed/mandelbrot__fixed-AWF-D__exp__rep1.csv.gz,ok,0,4.8,[lb_bench] mandelbrot fixed:AWF-D chunk=exp P=8 steps=500/500 loop_time=4.80669s checksum=10864106
+2026-11-06T22:11:49,luis-m2/fixed/mandelbrot__fixed-mAF__default__rep1.csv.gz,ok,0,6.3,[lb_bench] mandelbrot fixed:mAF chunk=default P=8 steps=500/500 loop_time=6.23664s checksum=10864106
+2026-11-06T22:11:50,luis-m2/expert/stream__exhaustivesel__exp__rep1.csv.gz,ok,0,0.9,[lb_bench] stream exhaustivesel chunk=exp P=8 steps=500/500 loop_time=0.854332s checksum=7168.0
+2026-11-06T22:11:56,luis-m2/expert/mandelbrot__expertsel__exp__rep1.csv.gz,ok,0,6.3,[lb_bench] mandelbrot expertsel chunk=exp P=8 steps=500/500 loop_time=6.24717s checksum=10864106
+2026-11-06T22:11:58,luis-m2/expert/stream__exhaustivesel__default__rep1.csv.gz,ok,0,1.2,[lb_bench] stream exhaustivesel chunk=default P=8 steps=500/500 loop_time=1.14179s checksum=7168.0
+2026-11-06T22:11:59,luis-m2/fixed/stream__fixed-StaticSteal__exp__rep1.csv.gz,ok,0,1.0,[lb_bench] stream fixed:StaticSteal chunk=exp P=8 steps=500/500 loop_time=0.970933s checksum=7168.0
+2026-11-06T22:12:03,luis-m2/fixed/mandelbrot__fixed-AWF-C__default__rep1.csv.gz,ok,0,4.6,[lb_bench] mandelbrot fixed:AWF-C chunk=default P=8 steps=500/500 loop_time=4.54315s checksum=10864106
+2026-11-06T22:12:08,luis-m2/rl/mandelbrot__qlearn-LT__exp__rep1.csv.gz,ok,0,5.0,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.01121s checksum=10864106
+2026-11-06T22:12:09,luis-m2/fixed/stream__fixed-STATIC__default__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:STATIC chunk=default P=8 steps=500/500 loop_time=0.837607s checksum=7168.0
+2026-11-06T22:12:15,luis-m2/expert/mandelbrot__randomsel__default__rep1.csv.gz,ok,0,6.4,[lb_bench] mandelbrot randomsel chunk=default P=8 steps=500/500 loop_time=6.36075s checksum=10864106
+2026-11-06T22:12:16,luis-m2/fixed/stream__fixed-AutoLLVM__default__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AutoLLVM chunk=default P=8 steps=500/500 loop_time=0.857811s checksum=7168.0
+2026-11-06T22:12:21,luis-m2/fixed/mandelbrot__fixed-SS__exp__rep1.csv.gz,ok,0,4.6,[lb_bench] mandelbrot fixed:SS chunk=exp P=8 steps=500/500 loop_time=4.55767s checksum=10864106
+2026-11-06T22:12:25,luis-m2/expert/mandelbrot__exhaustivesel__default__rep1.csv.gz,ok,0,4.6,[lb_bench] mandelbrot exhaustivesel chunk=default P=8 steps=500/500 loop_time=4.62336s checksum=10864106
+2026-11-06T22:12:26,luis-m2/fixed/stream__fixed-mFAC2__exp__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:mFAC2 chunk=exp P=8 steps=500/500 loop_time=0.853518s checksum=7168.0
+2026-11-06T22:12:27,luis-m2/fixed/stream__fixed-mAF__default__rep1.csv.gz,ok,0,0.8,[lb_bench] stream fixed:mAF chunk=default P=8 steps=500/500 loop_time=0.814825s checksum=7168.0
+2026-11-06T22:12:33,luis-m2/rl/mandelbrot__sarsa-LIB__default__rep1.csv.gz,ok,0,6.2,[lb_bench] mandelbrot sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=6.15693s checksum=10864106
+2026-11-06T22:12:34,luis-m2/fixed/stream__fixed-AWF-C__default__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-C chunk=default P=8 steps=500/500 loop_time=0.861943s checksum=7168.0
+2026-11-06T22:12:35,luis-m2/fixed/stream__fixed-AWF-B__default__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-B chunk=default P=8 steps=500/500 loop_time=0.859791s checksum=7168.0
+2026-11-06T22:14:02,luis-m2/fixed/stream__fixed-SS__default__rep1.csv.gz,ok,0,86.7,[lb_bench] stream fixed:SS chunk=default P=8 steps=500/500 loop_time=86.6653s checksum=7168.0
+2026-11-06T22:14:07,luis-m2/fixed/mandelbrot__fixed-TSS__default__rep1.csv.gz,ok,0,5.5,[lb_bench] mandelbrot fixed:TSS chunk=default P=8 steps=500/500 loop_time=5.51466s checksum=10864106
+2026-11-06T22:14:13,luis-m2/fixed/mandelbrot__fixed-AutoLLVM__default__rep1.csv.gz,ok,0,5.7,[lb_bench] mandelbrot fixed:AutoLLVM chunk=default P=8 steps=500/500 loop_time=5.69488s checksum=10864106
+2026-11-06T22:14:14,luis-m2/fixed/stream__fixed-SS__exp__rep1.csv.gz,ok,0,1.5,[lb_bench] stream fixed:SS chunk=exp P=8 steps=500/500 loop_time=1.47508s checksum=7168.0
+2026-11-06T22:14:20,luis-m2/fixed/mandelbrot__fixed-mFAC2__default__rep1.csv.gz,ok,0,6.0,[lb_bench] mandelbrot fixed:mFAC2 chunk=default P=8 steps=500/500 loop_time=6.01836s checksum=10864106
+2026-11-06T22:14:26,luis-m2/expert/mandelbrot__randomsel__exp__rep1.csv.gz,ok,0,6.0,[lb_bench] mandelbrot randomsel chunk=exp P=8 steps=500/500 loop_time=5.99987s checksum=10864106
+2026-11-06T22:14:33,luis-m2/fixed/mandelbrot__fixed-AWF-B__default__rep1.csv.gz,ok,0,6.1,[lb_bench] mandelbrot fixed:AWF-B chunk=default P=8 steps=500/500 loop_time=6.10101s checksum=10864106
+2026-11-06T22:14:34,luis-m2/fixed/stream__fixed-mAF__exp__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:mAF chunk=exp P=8 steps=500/500 loop_time=0.904436s checksum=7168.0
+2026-11-06T22:14:35,luis-m2/fixed/stream__fixed-STATIC__exp__rep1.csv.gz,ok,0,1.9,[lb_bench] stream fixed:STATIC chunk=exp P=8 steps=500/500 loop_time=1.85576s checksum=7168.0
+2026-11-06T22:14:42,luis-m2/rl/mandelbrot__sarsa-LT__default__rep2.csv.gz,ok,0,7.1,[lb_bench] mandelbrot sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=7.0775s checksum=10864106
+2026-11-06T22:14:48,luis-m2/fixed/mandelbrot__fixed-AWF-D__default__rep2.csv.gz,ok,0,5.7,[lb_bench] mandelbrot fixed:AWF-D chunk=default P=8 steps=500/500 loop_time=5.69807s checksum=10864106
+2026-11-06T22:14:49,luis-m2/fixed/stream__fixed-mAF__default__rep2.csv.gz,ok,0,0.9,[lb_bench] stream fixed:mAF chunk=default P=8 steps=500/500 loop_time=0.899772s checksum=7168.0
+2026-11-06T22:14:51,luis-m2/expert/stream__exhaustivesel__default__rep2.csv.gz,ok,0,1.9,[lb_bench] stream exhaustivesel chunk=default P=8 steps=500/500 loop_time=1.88992s checksum=7168.0
+2026-11-06T22:14:52,luis-m2/fixed/stream__fixed-AWF-B__exp__rep2.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-B chunk=exp P=8 steps=500/500 loop_time=0.90259s checksum=7168.0
+2026-11-06T22:14:53,luis-m2/rl/stream__qlearn-LIB__exp__rep2.csv.gz,ok,0,1.2,[lb_bench] stream qlearn chunk=exp reward=LIB P=8 steps=500/500 loop_time=1.16621s checksum=7168.0
+2026-11-06T22:14:58,luis-m2/rl/stream__sarsa-LT__default__rep2.csv.gz,ok,0,5.4,[lb_bench] stream sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=5.37471s checksum=7168.0
+2026-11-06T22:15:05,luis-m2/fixed/mandelbrot__fixed-GSS__exp__rep2.csv.gz,ok,0,6.3,[lb_bench] mandelbrot fixed:GSS chunk=exp P=8 steps=500/500 loop_time=6.25395s checksum=10864106
+2026-11-06T22:15:13,luis-m2/fixed/mandelbrot__fixed-STATIC__default__rep2.csv.gz,ok,0,8.5,[lb_bench] mandelbrot fixed:STATIC chunk=default P=8 steps=500/500 loop_time=8.49525s checksum=10864106
+2026-11-06T22:15:14,luis-m2/fixed/stream__fixed-mFAC2__default__rep2.csv.gz,ok,0,1.1,[lb_bench] stream fixed:mFAC2 chunk=default P=8 steps=500/500 loop_time=1.05231s checksum=7168.0
+2026-11-06T22:15:20,luis-m2/fixed/mandelbrot__fixed-TSS__exp__rep2.csv.gz,ok,0,5.6,[lb_bench] mandelbrot fixed:TSS chunk=exp P=8 steps=500/500 loop_time=5.58489s checksum=10864106
+2026-11-06T22:15:22,luis-m2/fixed/stream__fixed-STATIC__exp__rep2.csv.gz,ok,0,1.8,[lb_bench] stream fixed:STATIC chunk=exp P=8 steps=500/500 loop_time=1.78554s checksum=7168.0
+2026-11-06T22:15:28,luis-m2/fixed/mandelbrot__fixed-mFAC2__exp__rep2.csv.gz,ok,0,5.8,[lb_bench] mandelbrot fixed:mFAC2 chunk=exp P=8 steps=500/500 loop_time=5.75934s checksum=10864106
+2026-11-06T22:15:33,luis-m2/fixed/mandelbrot__fixed-AutoLLVM__exp__rep2.csv.gz,ok,0,5.6,[lb_bench] mandelbrot fixed:AutoLLVM chunk=exp P=8 steps=500/500 loop_time=5.59759s checksum=10864106
+2026-11-06T22:15:34,luis-m2/fixed/stream__fixed-STATIC__default__rep2.csv.gz,ok,0,0.9,[lb_bench] stream fixed:STATIC chunk=default P=8 steps=500/500 loop_time=0.921255s checksum=7168.0
+2026-11-06T22:15:41,luis-m2/rl/mandelbrot__sarsa-LIB__default__rep2.csv.gz,ok,0,6.6,[lb_bench] mandelbrot sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=6.60341s checksum=10864106
+2026-11-06T22:15:44,luis-m2/rl/stream__qlearn-LT__default__rep2.csv.gz,ok,0,3.6,[lb_bench] stream qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=3.62153s checksum=7168.0
+2026-11-06T22:15:45,luis-m2/fixed/stream__fixed-AutoLLVM__exp__rep2.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AutoLLVM chunk=exp P=8 steps=500/500 loop_time=0.934526s checksum=7168.0
+2026-11-06T22:15:46,luis-m2/fixed/stream__fixed-AWF-C__exp__rep2.csv.gz,ok,0,1.0,[lb_bench] stream fixed:AWF-C chunk=exp P=8 steps=500/500 loop_time=0.980299s checksum=7168.0
+2026-11-06T22:15:47,luis-m2/fixed/stream__fixed-mFAC2__exp__rep2.csv.gz,ok,0,1.0,[lb_bench] stream fixed:mFAC2 chunk=exp P=8 steps=500/500 loop_time=0.95927s checksum=7168.0
+2026-11-06T22:15:53,luis-m2/fixed/mandelbrot__fixed-mFAC2__default__rep2.csv.gz,ok,0,5.6,[lb_bench] mandelbrot fixed:mFAC2 chunk=default P=8 steps=500/500 loop_time=5.57188s checksum=10864106
+2026-11-06T22:15:58,luis-m2/fixed/mandelbrot__fixed-AWF-C__exp__rep2.csv.gz,ok,0,5.3,[lb_bench] mandelbrot fixed:AWF-C chunk=exp P=8 steps=500/500 loop_time=5.26073s checksum=10864106
+2026-11-06T22:15:59,luis-m2/fixed/stream__fixed-AutoLLVM__default__rep2.csv.gz,ok,0,1.0,[lb_bench] stream fixed:AutoLLVM chunk=default P=8 steps=500/500 loop_time=0.945077s checksum=7168.0
+2026-11-06T22:16:05,luis-m2/fixed/mandelbrot__fixed-mAF__default__rep2.csv.gz,ok,0,6.3,[lb_bench] mandelbrot fixed:mAF chunk=default P=8 steps=500/500 loop_time=6.28937s checksum=10864106
+2026-11-06T22:16:11,luis-m2/fixed/mandelbrot__fixed-AutoLLVM__default__rep2.csv.gz,ok,0,5.4,[lb_bench] mandelbrot fixed:AutoLLVM chunk=default P=8 steps=500/500 loop_time=5.36501s checksum=10864106
+2026-11-06T22:16:17,luis-m2/fixed/mandelbrot__fixed-mAF__exp__rep2.csv.gz,ok,0,6.5,[lb_bench] mandelbrot fixed:mAF chunk=exp P=8 steps=500/500 loop_time=6.44263s checksum=10864106
+2026-11-06T22:16:23,luis-m2/fixed/mandelbrot__fixed-AWF-C__default__rep2.csv.gz,ok,0,5.6,[lb_bench] mandelbrot fixed:AWF-C chunk=default P=8 steps=500/500 loop_time=5.61872s checksum=10864106
+2026-11-06T22:17:52,luis-m2/fixed/stream__fixed-SS__default__rep2.csv.gz,ok,0,89.1,[lb_bench] stream fixed:SS chunk=default P=8 steps=500/500 loop_time=89.0508s checksum=7168.0
+2026-11-06T22:17:53,luis-m2/fixed/stream__fixed-SS__exp__rep2.csv.gz,ok,0,1.5,[lb_bench] stream fixed:SS chunk=exp P=8 steps=500/500 loop_time=1.52366s checksum=7168.0
+2026-11-06T22:17:59,luis-m2/expert/mandelbrot__randomsel__exp__rep2.csv.gz,ok,0,5.3,[lb_bench] mandelbrot randomsel chunk=exp P=8 steps=500/500 loop_time=5.32431s checksum=10864106
+2026-11-06T22:18:00,luis-m2/fixed/stream__fixed-AWF-E__exp__rep2.csv.gz,ok,0,1.0,[lb_bench] stream fixed:AWF-E chunk=exp P=8 steps=500/500 loop_time=0.951464s checksum=7168.0
+2026-11-06T22:18:01,luis-m2/rl/stream__sarsa-LIB__exp__rep2.csv.gz,ok,0,1.5,[lb_bench] stream sarsa chunk=exp reward=LIB P=8 steps=500/500 loop_time=1.51621s checksum=7168.0
+2026-11-06T22:18:02,luis-m2/fixed/stream__fixed-AWF-E__default__rep2.csv.gz,ok,0,1.0,[lb_bench] stream fixed:AWF-E chunk=default P=8 steps=500/500 loop_time=0.950983s checksum=7168.0
+2026-11-06T22:18:07,luis-m2/fixed/mandelbrot__fixed-StaticSteal__exp__rep2.csv.gz,ok,0,5.2,[lb_bench] mandelbrot fixed:StaticSteal chunk=exp P=8 steps=500/500 loop_time=5.18581s checksum=10864106
+2026-11-06T22:18:08,luis-m2/fixed/stream__fixed-AWF-B__default__rep2.csv.gz,ok,0,1.0,[lb_bench] stream fixed:AWF-B chunk=default P=8 steps=500/500 loop_time=0.94857s checksum=7168.0
+2026-11-06T22:18:14,luis-m2/fixed/mandelbrot__fixed-AWF-B__default__rep2.csv.gz,ok,0,5.6,[lb_bench] mandelbrot fixed:AWF-B chunk=default P=8 steps=500/500 loop_time=5.60965s checksum=10864106
+2026-11-06T22:18:21,luis-m2/expert/mandelbrot__expertsel__exp__rep2.csv.gz,ok,0,6.9,[lb_bench] mandelbrot expertsel chunk=exp P=8 steps=500/500 loop_time=6.85645s checksum=10864106
+2026-11-06T22:18:22,luis-m2/fixed/stream__fixed-StaticSteal__exp__rep2.csv.gz,ok,0,1.1,[lb_bench] stream fixed:StaticSteal chunk=exp P=8 steps=500/500 loop_time=1.05704s checksum=7168.0
+2026-11-06T22:18:23,luis-m2/fixed/stream__fixed-GSS__default__rep2.csv.gz,ok,0,0.9,[lb_bench] stream fixed:GSS chunk=default P=8 steps=500/500 loop_time=0.922344s checksum=7168.0
+2026-11-06T22:18:24,luis-m2/fixed/stream__fixed-AWF-D__exp__rep2.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-D chunk=exp P=8 steps=500/500 loop_time=0.919434s checksum=7168.0
+2026-11-06T22:18:29,luis-m2/rl/stream__qlearn-LIB__default__rep2.csv.gz,ok,0,5.1,[lb_bench] stream qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=5.05683s checksum=7168.0
+2026-11-06T22:18:35,luis-m2/rl/mandelbrot__sarsa-LIB__exp__rep2.csv.gz,ok,0,6.1,[lb_bench] mandelbrot sarsa chunk=exp reward=LIB P=8 steps=500/500 loop_time=6.10643s checksum=10864106
+2026-11-06T22:18:41,luis-m2/rl/mandelbrot__qlearn-LIB__exp__rep2.csv.gz,ok,0,6.0,[lb_bench] mandelbrot qlearn chunk=exp reward=LIB P=8 steps=500/500 loop_time=5.94038s checksum=10864106
+2026-11-06T22:18:42,luis-m2/expert/stream__exhaustivesel__exp__rep2.csv.gz,ok,0,1.0,[lb_bench] stream exhaustivesel chunk=exp P=8 steps=500/500 loop_time=0.949978s checksum=7168.0
+2026-11-06T22:18:43,luis-m2/rl/stream__qlearn-LT__exp__rep2.csv.gz,ok,0,1.3,[lb_bench] stream qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=1.27064s checksum=7168.0
+2026-11-06T22:18:49,luis-m2/expert/mandelbrot__exhaustivesel__default__rep2.csv.gz,ok,0,5.5,[lb_bench] mandelbrot exhaustivesel chunk=default P=8 steps=500/500 loop_time=5.50362s checksum=10864106
+2026-11-06T22:20:14,luis-m2/rl/stream__sarsa-LIB__default__rep2.csv.gz,ok,0,85.5,[lb_bench] stream sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=85.4655s checksum=7168.0
+2026-11-06T22:20:21,luis-m2/rl/mandelbrot__qlearn-LIB__default__rep2.csv.gz,ok,0,6.5,[lb_bench] mandelbrot qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=6.45578s checksum=10864106
+2026-11-06T22:20:22,luis-m2/fixed/stream__fixed-GSS__exp__rep2.csv.gz,ok,0,0.9,[lb_bench] stream fixed:GSS chunk=exp P=8 steps=500/500 loop_time=0.912018s checksum=7168.0
+2026-11-06T22:20:23,luis-m2/expert/stream__expertsel__default__rep2.csv.gz,ok,0,1.1,[lb_bench] stream expertsel chunk=default P=8 steps=500/500 loop_time=1.13084s checksum=7168.0
+2026-11-06T22:20:25,luis-m2/expert/stream__expertsel__exp__rep2.csv.gz,ok,0,1.9,[lb_bench] stream expertsel chunk=exp P=8 steps=500/500 loop_time=1.84534s checksum=7168.0
+2026-11-06T22:20:26,luis-m2/fixed/stream__fixed-AWF-D__default__rep2.csv.gz,ok,0,1.0,[lb_bench] stream fixed:AWF-D chunk=default P=8 steps=500/500 loop_time=0.950017s checksum=7168.0
+2026-11-06T22:20:31,luis-m2/fixed/mandelbrot__fixed-SS__exp__rep2.csv.gz,ok,0,5.6,[lb_bench] mandelbrot fixed:SS chunk=exp P=8 steps=500/500 loop_time=5.58109s checksum=10864106
+2026-11-06T22:20:38,luis-m2/fixed/mandelbrot__fixed-STATIC__exp__rep2.csv.gz,ok,0,7.2,[lb_bench] mandelbrot fixed:STATIC chunk=exp P=8 steps=500/500 loop_time=7.17421s checksum=10864106
+2026-11-06T22:20:40,luis-m2/rl/stream__sarsa-LT__exp__rep2.csv.gz,ok,0,1.2,[lb_bench] stream sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=1.20533s checksum=7168.0
+2026-11-06T22:20:48,luis-m2/fixed/mandelbrot__fixed-SS__default__rep2.csv.gz,ok,0,8.5,[lb_bench] mandelbrot fixed:SS chunk=default P=8 steps=500/500 loop_time=8.45385s checksum=10864106
+2026-11-06T22:20:54,luis-m2/fixed/mandelbrot__fixed-GSS__default__rep2.csv.gz,ok,0,5.8,[lb_bench] mandelbrot fixed:GSS chunk=default P=8 steps=500/500 loop_time=5.79252s checksum=10864106
+2026-11-06T22:22:09,luis-m2/expert/stream__randomsel__default__rep2.csv.gz,ok,0,75.2,[lb_bench] stream randomsel chunk=default P=8 steps=500/500 loop_time=75.2252s checksum=7168.0
+2026-11-06T22:22:15,luis-m2/rl/mandelbrot__sarsa-LT__exp__rep2.csv.gz,ok,0,6.4,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.37097s checksum=10864106
+2026-11-06T22:22:16,luis-m2/fixed/stream__fixed-mAF__exp__rep2.csv.gz,ok,0,0.9,[lb_bench] stream fixed:mAF chunk=exp P=8 steps=500/500 loop_time=0.89544s checksum=7168.0
+2026-11-06T22:22:22,luis-m2/fixed/mandelbrot__fixed-AWF-B__exp__rep2.csv.gz,ok,0,5.9,[lb_bench] mandelbrot fixed:AWF-B chunk=exp P=8 steps=500/500 loop_time=5.86234s checksum=10864106
+2026-11-06T22:22:26,luis-m2/fixed/stream__fixed-StaticSteal__default__rep2.csv.gz,ok,0,4.1,[lb_bench] stream fixed:StaticSteal chunk=default P=8 steps=500/500 loop_time=4.0939s checksum=7168.0
+2026-11-06T22:22:27,luis-m2/fixed/stream__fixed-AWF-C__default__rep2.csv.gz,ok,0,0.9,[lb_bench] stream fixed:AWF-C chunk=default P=8 steps=500/500 loop_time=0.928765s checksum=7168.0
+2026-11-06T22:22:33,luis-m2/fixed/mandelbrot__fixed-TSS__default__rep2.csv.gz,ok,0,5.8,[lb_bench] mandelbrot fixed:TSS chunk=default P=8 steps=500/500 loop_time=5.76155s checksum=10864106
+2026-11-06T22:22:39,luis-m2/rl/mandelbrot__qlearn-LT__default__rep2.csv.gz,ok,0,6.4,[lb_bench] mandelbrot qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=6.42561s checksum=10864106
+2026-11-06T22:22:46,luis-m2/fixed/mandelbrot__fixed-AWF-D__exp__rep2.csv.gz,ok,0,6.0,[lb_bench] mandelbrot fixed:AWF-D chunk=exp P=8 steps=500/500 loop_time=6.01943s checksum=10864106
+2026-11-06T22:22:53,luis-m2/expert/mandelbrot__expertsel__default__rep2.csv.gz,ok,0,7.6,[lb_bench] mandelbrot expertsel chunk=default P=8 steps=500/500 loop_time=7.56205s checksum=10864106
+2026-11-06T22:22:54,luis-m2/expert/stream__randomsel__exp__rep2.csv.gz,ok,0,1.2,[lb_bench] stream randomsel chunk=exp P=8 steps=500/500 loop_time=1.15961s checksum=7168.0
+2026-11-06T22:22:59,luis-m2/fixed/mandelbrot__fixed-AWF-E__exp__rep2.csv.gz,ok,0,5.2,[lb_bench] mandelbrot fixed:AWF-E chunk=exp P=8 steps=500/500 loop_time=5.20447s checksum=10864106
+2026-11-06T22:23:05,luis-m2/expert/mandelbrot__exhaustivesel__exp__rep2.csv.gz,ok,0,5.3,[lb_bench] mandelbrot exhaustivesel chunk=exp P=8 steps=500/500 loop_time=5.31153s checksum=10864106
+2026-11-06T22:23:11,luis-m2/rl/mandelbrot__qlearn-LT__exp__rep2.csv.gz,ok,0,5.9,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.86892s checksum=10864106
+2026-11-06T22:23:18,luis-m2/expert/mandelbrot__randomsel__default__rep2.csv.gz,ok,0,7.7,[lb_bench] mandelbrot randomsel chunk=default P=8 steps=500/500 loop_time=7.67114s checksum=10864106
+2026-11-06T22:23:19,luis-m2/fixed/stream__fixed-TSS__exp__rep2.csv.gz,ok,0,0.9,[lb_bench] stream fixed:TSS chunk=exp P=8 steps=500/500 loop_time=0.876087s checksum=7168.0
+2026-11-06T22:23:25,luis-m2/fixed/mandelbrot__fixed-StaticSteal__default__rep2.csv.gz,ok,0,5.5,[lb_bench] mandelbrot fixed:StaticSteal chunk=default P=8 steps=500/500 loop_time=5.45924s checksum=10864106
+2026-11-06T22:23:30,luis-m2/fixed/mandelbrot__fixed-AWF-E__default__rep2.csv.gz,ok,0,5.2,[lb_bench] mandelbrot fixed:AWF-E chunk=default P=8 steps=500/500 loop_time=5.20524s checksum=10864106
+2026-11-06T22:23:31,luis-m2/fixed/stream__fixed-TSS__default__rep2.csv.gz,ok,0,0.9,[lb_bench] stream fixed:TSS chunk=default P=8 steps=500/500 loop_time=0.875548s checksum=7168.0
+2026-11-06T22:23:37,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.5__exp__rep0.csv.gz,ok,0,5.7,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.6885s checksum=10864106
+2026-11-06T22:23:43,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.5__exp__rep0.csv.gz,ok,0,6.2,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.16243s checksum=10864106
+2026-11-06T22:23:49,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.9__exp__rep0.csv.gz,ok,0,6.4,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.43257s checksum=10864106
+2026-11-06T22:23:55,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.5__exp__rep0.csv.gz,ok,0,5.9,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.89313s checksum=10864106
+2026-11-06T22:24:01,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.9__exp__rep0.csv.gz,ok,0,5.9,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.87599s checksum=10864106
+2026-11-06T22:24:07,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.1__exp__rep0.csv.gz,ok,0,5.9,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=5.8889s checksum=10864106
+2026-11-06T22:24:13,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.5__exp__rep0.csv.gz,ok,0,6.3,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.32482s checksum=10864106
+2026-11-06T22:24:19,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.9__exp__rep0.csv.gz,ok,0,5.7,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=5.65454s checksum=10864106
+2026-11-06T22:24:25,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.9__exp__rep0.csv.gz,ok,0,6.3,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=6.31847s checksum=10864106
+2026-11-06T22:24:31,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.1__exp__rep0.csv.gz,ok,0,6.0,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.96103s checksum=10864106
+2026-11-06T22:24:37,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.1__exp__rep0.csv.gz,ok,0,6.0,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=5.97433s checksum=10864106
+2026-11-06T22:24:43,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.5__exp__rep0.csv.gz,ok,0,6.0,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.97394s checksum=10864106
+2026-11-06T22:24:49,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.1__exp__rep0.csv.gz,ok,0,5.8,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.82244s checksum=10864106
+2026-11-06T22:24:56,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.9__exp__rep0.csv.gz,ok,0,6.4,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=6.40878s checksum=10864106
+2026-11-06T22:25:01,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.9__exp__rep0.csv.gz,ok,0,5.9,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=5.89203s checksum=10864106
+2026-11-06T22:25:08,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.1__exp__rep0.csv.gz,ok,0,6.5,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.47977s checksum=10864106
+2026-11-06T22:25:14,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.1__exp__rep0.csv.gz,ok,0,6.1,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=6.12215s checksum=10864106
+2026-11-06T22:25:20,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.5__exp__rep0.csv.gz,ok,0,6.0,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.00781s checksum=10864106
+2026-11-06T22:25:26,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.5__exp__rep1.csv.gz,ok,0,5.9,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.90556s checksum=10864106
+2026-11-06T22:25:32,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.9__exp__rep1.csv.gz,ok,0,5.6,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=5.63342s checksum=10864106
+2026-11-06T22:25:38,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.5__exp__rep1.csv.gz,ok,0,6.0,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.9655s checksum=10864106
+2026-11-06T22:25:43,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.1__exp__rep1.csv.gz,ok,0,5.7,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.67296s checksum=10864106
+2026-11-06T22:25:49,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.1__exp__rep1.csv.gz,ok,0,6.0,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=5.98281s checksum=10864106
+2026-11-06T22:25:55,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.1__exp__rep1.csv.gz,ok,0,5.7,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.68344s checksum=10864106
+2026-11-06T22:26:01,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.9__exp__rep1.csv.gz,ok,0,5.9,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=5.89446s checksum=10864106
+2026-11-06T22:26:07,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.9__exp__rep1.csv.gz,ok,0,5.8,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.75008s checksum=10864106
+2026-11-06T22:26:14,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.5__exp__rep1.csv.gz,ok,0,7.1,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=7.10888s checksum=10864106
+2026-11-06T22:26:20,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.5__exp__rep1.csv.gz,ok,0,5.7,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.69134s checksum=10864106
+2026-11-06T22:26:26,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.1__exp__rep1.csv.gz,ok,0,6.0,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=6.02522s checksum=10864106
+2026-11-06T22:26:32,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.1__exp__rep1.csv.gz,ok,0,6.6,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.60812s checksum=10864106
+2026-11-06T22:26:39,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.5__exp__rep1.csv.gz,ok,0,6.9,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.88805s checksum=10864106
+2026-11-06T22:26:45,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.9__exp__rep1.csv.gz,ok,0,6.3,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=6.31854s checksum=10864106
+2026-11-06T22:26:52,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.1__exp__rep1.csv.gz,ok,0,6.6,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.62533s checksum=10864106
+2026-11-06T22:26:58,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.5__exp__rep1.csv.gz,ok,0,6.3,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.30291s checksum=10864106
+2026-11-06T22:27:04,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.9__exp__rep1.csv.gz,ok,0,6.0,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.98885s checksum=10864106
+2026-11-06T22:27:11,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.9__exp__rep1.csv.gz,ok,0,6.7,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.6591s checksum=10864106
+2026-11-06T22:27:18,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.9__exp__rep2.csv.gz,ok,0,6.5,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.46518s checksum=10864106
+2026-11-06T22:27:23,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.5__exp__rep2.csv.gz,ok,0,5.9,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=5.91884s checksum=10864106
+2026-11-06T22:27:29,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.5__exp__rep2.csv.gz,ok,0,5.6,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=5.56904s checksum=10864106
+2026-11-06T22:27:35,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.5__exp__rep2.csv.gz,ok,0,5.8,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.75155s checksum=10864106
+2026-11-06T22:27:41,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.9__exp__rep2.csv.gz,ok,0,6.1,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=6.10898s checksum=10864106
+2026-11-06T22:27:47,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.1__exp__rep2.csv.gz,ok,0,5.6,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.6299s checksum=10864106
+2026-11-06T22:27:52,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.1__exp__rep2.csv.gz,ok,0,5.4,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=5.41261s checksum=10864106
+2026-11-06T22:27:58,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.9__exp__rep2.csv.gz,ok,0,5.9,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=5.93621s checksum=10864106
+2026-11-06T22:28:04,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.5__exp__rep2.csv.gz,ok,0,6.2,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.21918s checksum=10864106
+2026-11-06T22:28:10,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.1__exp__rep2.csv.gz,ok,0,6.0,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=6.01675s checksum=10864106
+2026-11-06T22:28:16,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.5__exp__rep2.csv.gz,ok,0,5.6,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.60616s checksum=10864106
+2026-11-06T22:28:21,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.5__exp__rep2.csv.gz,ok,0,5.4,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.41459s checksum=10864106
+2026-11-06T22:28:27,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.9__exp__rep2.csv.gz,ok,0,5.5,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.4414s checksum=10864106
+2026-11-06T22:28:33,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.1__exp__rep2.csv.gz,ok,0,6.1,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.05747s checksum=10864106
+2026-11-06T22:28:38,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.1__exp__rep2.csv.gz,ok,0,5.5,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=5.52553s checksum=10864106
+2026-11-06T22:28:44,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.9__exp__rep2.csv.gz,ok,0,6.0,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.95833s checksum=10864106
+2026-11-06T22:28:50,luis-m2/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.9__exp__rep2.csv.gz,ok,0,6.2,[lb_bench] mandelbrot sarsa chunk=exp reward=LT P=8 steps=500/500 loop_time=6.20327s checksum=10864106
+2026-11-06T22:28:56,luis-m2/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.1__exp__rep2.csv.gz,ok,0,5.5,[lb_bench] mandelbrot qlearn chunk=exp reward=LT P=8 steps=500/500 loop_time=5.48176s checksum=10864106
+2026-11-06T22:28:56,luis-m2/chunks/mandelbrot__AWF-C__default.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:AWF-C chunk=default P=8 steps=3/3 loop_time=0.0258926s checksum=10864106
+2026-11-06T22:28:56,luis-m2/chunks/mandelbrot__AWF-C__exp.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:AWF-C chunk=exp P=8 steps=3/3 loop_time=0.0251889s checksum=10864106
+2026-11-06T22:28:56,luis-m2/chunks/mandelbrot__AWF-B__default.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:AWF-B chunk=default P=8 steps=3/3 loop_time=0.0310282s checksum=10864106
+2026-11-06T22:28:56,luis-m2/chunks/mandelbrot__SS__exp.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:SS chunk=exp P=8 steps=3/3 loop_time=0.0220982s checksum=10864106
+2026-11-06T22:28:56,luis-m2/chunks/mandelbrot__AutoLLVM__default.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:AutoLLVM chunk=default P=8 steps=3/3 loop_time=0.0204477s checksum=10864106
+2026-11-06T22:28:56,luis-m2/chunks/mandelbrot__AWF-D__default.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:AWF-D chunk=default P=8 steps=3/3 loop_time=0.0269755s checksum=10864106
+2026-11-06T22:28:56,luis-m2/chunks/mandelbrot__TSS__exp.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:TSS chunk=exp P=8 steps=3/3 loop_time=0.0211748s checksum=10864106
+2026-11-06T22:28:56,luis-m2/chunks/mandelbrot__mAF__exp.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:mAF chunk=exp P=8 steps=3/3 loop_time=0.0338875s checksum=10864106
+2026-11-06T22:28:56,luis-m2/chunks/mandelbrot__mFAC2__default.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:mFAC2 chunk=default P=8 steps=3/3 loop_time=0.0224647s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__SS__default.csv.gz,ok,0,0.2,[lb_bench] mandelbrot fixed:SS chunk=default P=8 steps=3/3 loop_time=0.0564292s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__AWF-E__default.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:AWF-E chunk=default P=8 steps=3/3 loop_time=0.0226308s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__GSS__default.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:GSS chunk=default P=8 steps=3/3 loop_time=0.0245788s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__AWF-E__exp.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:AWF-E chunk=exp P=8 steps=3/3 loop_time=0.0240482s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__AWF-D__exp.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:AWF-D chunk=exp P=8 steps=3/3 loop_time=0.0293923s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__STATIC__exp.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:STATIC chunk=exp P=8 steps=3/3 loop_time=0.0270743s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__mAF__default.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:mAF chunk=default P=8 steps=3/3 loop_time=0.0343876s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__GSS__exp.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:GSS chunk=exp P=8 steps=3/3 loop_time=0.0246905s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__AutoLLVM__exp.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:AutoLLVM chunk=exp P=8 steps=3/3 loop_time=0.0208494s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__StaticSteal__default.csv.gz,ok,0,0.2,[lb_bench] mandelbrot fixed:StaticSteal chunk=default P=8 steps=3/3 loop_time=0.0366794s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__TSS__default.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:TSS chunk=default P=8 steps=3/3 loop_time=0.022307s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__mFAC2__exp.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:mFAC2 chunk=exp P=8 steps=3/3 loop_time=0.0226284s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__StaticSteal__exp.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:StaticSteal chunk=exp P=8 steps=3/3 loop_time=0.0211313s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__STATIC__default.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:STATIC chunk=default P=8 steps=3/3 loop_time=0.0344408s checksum=10864106
+2026-11-06T22:28:57,luis-m2/chunks/mandelbrot__AWF-B__exp.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:AWF-B chunk=exp P=8 steps=3/3 loop_time=0.0290092s checksum=10864106
