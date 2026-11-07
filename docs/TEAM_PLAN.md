@@ -5,7 +5,7 @@ Fill in names and machine labels first:
 | Role | Name | `SYSTEM` label | Machine (CPU, cores, RAM, OS) |
 |---|---|---|---|
 | Member A, Portfolio | _____ | _____ | _____ |
-| Member B, Expert selection | _____ | _____ | _____ |
+| Member B, Expert selection | Hemal | `hemal-u9-285h` | Intel Core Ultra 9 285H, 16 cores, no SMT (6 at 5.4 GHz, 8 at 4.5 GHz, 2 at 2.5 GHz), 30.8 GB RAM, Omarchy Linux (kernel 7.2.8) |
 | Member C, RL selection | Luis Ayerdi-Morales | luis-m2 | Apple M2, 8 cores, 16 GB, macOS 15 |
 
 Ground rules:
@@ -109,9 +109,20 @@ Record every choice the paper does not pin down. These feed the "differences" se
 | 2026-11-03 | setup | Oracle = per loop, best fixed (algorithm, chunk mode) by median total time; Oracle total = sum over loops | paper §3.3 + Table 2 ("ideal combination … across application loops") |
 | 2026-11-03 | setup | Mandelbrot L1 zooms into (−0.7436, 0.1318) over T steps, L2 is the reverse | paper gives no coordinates |
 | 2026-11-03 | setup | STREAM/SS-type runs capped at `max_seconds` and extrapolated | laptop time budget |
-| | A | Auto(LLVM) maps to … | |
-| | B | expChunk formula: … | |
-| | B | ExhaustiveSel re-trigger: … | |
-| | B | ExpertSel rules: … | |
+| 2026-11-06 | A | Auto(LLVM) maps to `kmp_sch_guided_analytical_chunked`: chunk ≈ R/(2P) (factor x = 1 − 0.5/P), fixed chunks of c after the cross-over point, plain dynamic if (2c+1)·P ≥ N | LLVM `kmp_global.cpp`: `__kmp_auto = kmp_sch_guided_analytical_chunked`; `kmp_dispatch.cpp`: `case kmp_sch_auto: schedule = __kmp_auto` |
+| 2026-11-06 | A | TSS: f = max(⌈N/2P⌉, c), l = c, δ as a real number, sizes rounded; after A chunks it keeps handing out l | paper Eq. 4, LLVM `kmp_sch_trapezoidal` |
+| 2026-11-06 | A | Static Steal: owner takes from the front of its STATIC share; a thief steals ¼ of a victim's remaining chunks (≥ 1) from the back, victims round-robin from tid+1 | LLVM `kmp_sch_static_steal` (newer versions steal ¼) |
+| 2026-11-06 | A | mFAC2: batch j = k/P from an atomic ticket k, chunk = ⌈N / (2^(j+1)·P)⌉ (closed form) | paper p. 4–5, LB4OMP `fac2a` |
+| 2026-11-06 | A | AWF: π_i = Σ j·time / Σ j·iters (j = thread's chunk number), w_i = n / (π_i · Σ 1/π_k); base ⌈R/2P⌉; B/D: one shared base per FAC2 batch (set by the first thread to enter it) and w refreshed once per batch, C/E: base and w recomputed every request; D/E time = request + body, B/C = body only; weights persist across instances | LB4OMP `awf_b..e` |
+| 2026-11-06 | A | mAF: μ, σ over per-chunk mean iteration times, persist across instances; first chunk 100; threads without data use the caller's μ/σ; LB4OMP sub-chunk "divider" omitted | paper Eqs. 6–7, LB4OMP `af_a`; simplification |
+| 2026-11-06 | A | Chunk param capped at N inside all 9 portfolio algorithms (same behaviour, avoids int64 overflow for huge values). Kept on purpose after review: mAF first chunk exactly 100 (paper Eq. 6, so N < 100·P leaves threads idle in instance 1), TSS real-valued δ (paper) instead of LLVM's integer δ, Static Steal victim = round-robin | adversarial review 2026-11-06 |
+| 2026-11-06 | B | expChunk: `f = floor(log2(N/P) / 1.618)`, `chunk = floor(N / (2^f * 2P))`, minimum 1 | Ref [25] Eq. 1, which gives the reported SPHYNX values 48, 34 and 30. The minimum of 1 is ours, for loops with N <= P |
+| 2026-11-06 | B | expChunk STREAM reference values are not reproduced: N = 2e9 gives 544 (P = 56) and 762 (P = 20), the paper reports 217 and 305 | The paper's values match N = 4e8 and N = 2e8, which suggests those runs used a smaller N than Table 2 states. Inferred, not stated by the authors |
+| 2026-11-06 | B | Portfolio order for ExhaustiveSel and ExpertSel: STATIC, SS, GSS, AutoLLVM, TSS, StaticSteal, mFAC2, AWF-B, AWF-C, AWF-D, AWF-E, mAF | Ref [25] §3.2. LB4OMP's code uses a different order |
+| 2026-11-06 | B | RandomSel: instance 0 runs STATIC, and a jump can land on the current algorithm | Paper §3.2 needs a measured LIB for Pj, and picks from the whole portfolio. LB4OMP always jumps on first entry instead |
+| 2026-11-06 | B | ExhaustiveSel re-trigger: search again when `LIB > average LIB of the selected algorithm + 10` percentage points. The average includes the algorithm's search trial and later instances. A new search starts at STATIC with its best time cleared | Paper §3.2 says "high imbalance … 10% variation from the recorded average". Points, not relative, because LIB is already a percentage and the paper treats LIB = 10 as high imbalance. Ref [25] §3.4.4 and LB4OMP compare with the previous instance instead, and LB4OMP keeps the old best time |
+| 2026-11-06 | B | ExpertSel: membership functions from ref [25] Fig. 5, rules from Table 1 and Algorithm 1, unsimplified, with absolute T_par thresholds | Paper §3.2 defers to [25]. Our shorter loops may fall in the "Short" range more often than the paper's, which is a result to discuss, not a change to the method |
+| 2026-11-06 | B | ExpertSel defuzzification: integrate the area of each output cut at its truth value, normalise, multiply by the output's centre of gravity, and sum. Round to the nearest position, clamped to the portfolio. DLS axis ends at mAF = 11 | Ref [25] §3.3.3 and Fig. 5. LB4OMP differs: hard-coded output values instead of centres of gravity, an axis ending at 14, and uncut areas scaled by the truth value |
+| 2026-11-06 | B | ExpertSel changes: ΔT_par = (current − previous) / current × 100, ΔLIB = current − previous | Ref [25] gives ΔT_par in percent but not the denominator, so this follows LB4OMP |
 | 2026-11-06 | C | α-decay: multiplicative, α ← max(0.01, α·(1−0.05)) once per greedy instance (after explore-first) | subtractive 0.05 would zero α after 10 instances (0.5/0.05) and freeze learning; not yet verified against the RL4OMP code (ref. [28]) |
 | 2026-11-06 | C | explore-first order: Eulerian circuit of complete digraph with self-loops (Hierholzer from node 0, out-edges in portfolio order); instances 0..K² play its K²+1 nodes, greedy (argmax Q, ties → lowest index) afterwards. Reward Eq. 11 uses min/max *including* the current instance; first instance has no state, so no update | covers every (s,a) once for any K; K² transitions = 144 for K = 12 |
