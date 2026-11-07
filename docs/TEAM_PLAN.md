@@ -109,7 +109,13 @@ Record every choice the paper does not pin down. These feed the "differences" se
 | 2026-11-03 | setup | Oracle = per loop, best fixed (algorithm, chunk mode) by median total time; Oracle total = sum over loops | paper §3.3 + Table 2 ("ideal combination … across application loops") |
 | 2026-11-03 | setup | Mandelbrot L1 zooms into (−0.7436, 0.1318) over T steps, L2 is the reverse | paper gives no coordinates |
 | 2026-11-03 | setup | STREAM/SS-type runs capped at `max_seconds` and extrapolated | laptop time budget |
-| | A | Auto(LLVM) maps to … | |
+| 2026-11-06 | A | Auto(LLVM) maps to `kmp_sch_guided_analytical_chunked`: chunk ≈ R/(2P) (factor x = 1 − 0.5/P), fixed chunks of c after the cross-over point, plain dynamic if (2c+1)·P ≥ N | LLVM `kmp_global.cpp`: `__kmp_auto = kmp_sch_guided_analytical_chunked`; `kmp_dispatch.cpp`: `case kmp_sch_auto: schedule = __kmp_auto` |
+| 2026-11-06 | A | TSS: f = max(⌈N/2P⌉, c), l = c, δ as a real number, sizes rounded; after A chunks it keeps handing out l | paper Eq. 4, LLVM `kmp_sch_trapezoidal` |
+| 2026-11-06 | A | Static Steal: owner takes from the front of its STATIC share; a thief steals ¼ of a victim's remaining chunks (≥ 1) from the back, victims round-robin from tid+1 | LLVM `kmp_sch_static_steal` (newer versions steal ¼) |
+| 2026-11-06 | A | mFAC2: batch j = k/P from an atomic ticket k, chunk = ⌈N / (2^(j+1)·P)⌉ (closed form) | paper p. 4–5, LB4OMP `fac2a` |
+| 2026-11-06 | A | AWF: π_i = Σ j·time / Σ j·iters (j = thread's chunk number), w_i = n / (π_i · Σ 1/π_k); base ⌈R/2P⌉; B/D: one shared base per FAC2 batch (set by the first thread to enter it) and w refreshed once per batch, C/E: base and w recomputed every request; D/E time = request + body, B/C = body only; weights persist across instances | LB4OMP `awf_b..e` |
+| 2026-11-06 | A | mAF: μ, σ over per-chunk mean iteration times, persist across instances; first chunk 100; threads without data use the caller's μ/σ; LB4OMP sub-chunk "divider" omitted | paper Eqs. 6–7, LB4OMP `af_a`; simplification |
+| 2026-11-06 | A | Chunk param capped at N inside all 9 portfolio algorithms (same behaviour, avoids int64 overflow for huge values). Kept on purpose after review: mAF first chunk exactly 100 (paper Eq. 6, so N < 100·P leaves threads idle in instance 1), TSS real-valued δ (paper) instead of LLVM's integer δ, Static Steal victim = round-robin | adversarial review 2026-11-06 |
 | | B | expChunk formula: … | |
 | | B | ExhaustiveSel re-trigger: … | |
 | | B | ExpertSel rules: … | |

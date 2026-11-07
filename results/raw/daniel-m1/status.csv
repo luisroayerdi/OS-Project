@@ -1,0 +1,40 @@
+time,job,status,exit_code,wall_s,message
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__AWF-C__default.csv.gz,ok,0,0.1,[lb_bench] mandelbrot fixed:AWF-C chunk=default P=8 steps=3/3 loop_time=0.0503568s checksum=10864106
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__AWF-C__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__AWF-B__default.csv.gz,ok,0,0.1,[lb_bench] mandelbrot fixed:AWF-B chunk=default P=8 steps=3/3 loop_time=0.0494322s checksum=10864106
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__SS__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__AutoLLVM__default.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:AutoLLVM chunk=default P=8 steps=3/3 loop_time=0.0376837s checksum=10864106
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__AWF-D__default.csv.gz,ok,0,0.1,[lb_bench] mandelbrot fixed:AWF-D chunk=default P=8 steps=3/3 loop_time=0.0513692s checksum=10864106
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__TSS__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__mAF__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__mFAC2__default.csv.gz,ok,0,0.0,[lb_bench] mandelbrot fixed:mFAC2 chunk=default P=8 steps=3/3 loop_time=0.0410155s checksum=10864106
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__SS__default.csv.gz,ok,0,0.3,[lb_bench] mandelbrot fixed:SS chunk=default P=8 steps=3/3 loop_time=0.0908102s checksum=10864106
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__AWF-E__default.csv.gz,ok,0,0.1,[lb_bench] mandelbrot fixed:AWF-E chunk=default P=8 steps=3/3 loop_time=0.0488102s checksum=10864106
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__GSS__default.csv.gz,ok,0,0.1,[lb_bench] mandelbrot fixed:GSS chunk=default P=8 steps=3/3 loop_time=0.0545363s checksum=10864106
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__AWF-E__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__AWF-D__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__STATIC__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__mAF__default.csv.gz,ok,0,0.1,[lb_bench] mandelbrot fixed:mAF chunk=default P=8 steps=3/3 loop_time=0.0624562s checksum=10864106
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__GSS__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:31,daniel-m1/chunks/mandelbrot__AutoLLVM__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:32,daniel-m1/chunks/mandelbrot__StaticSteal__default.csv.gz,ok,0,0.3,[lb_bench] mandelbrot fixed:StaticSteal chunk=default P=8 steps=3/3 loop_time=0.0643277s checksum=10864106
+2026-11-06T18:57:32,daniel-m1/chunks/mandelbrot__TSS__default.csv.gz,ok,0,0.1,[lb_bench] mandelbrot fixed:TSS chunk=default P=8 steps=3/3 loop_time=0.0358487s checksum=10864106
+2026-11-06T18:57:32,daniel-m1/chunks/mandelbrot__mFAC2__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:32,daniel-m1/chunks/mandelbrot__StaticSteal__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:32,daniel-m1/chunks/mandelbrot__STATIC__default.csv.gz,ok,0,0.1,[lb_bench] mandelbrot fixed:STATIC chunk=default P=8 steps=3/3 loop_time=0.0533043s checksum=10864106
+2026-11-06T18:57:32,daniel-m1/chunks/mandelbrot__AWF-B__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__AWF-D__exp.csv.gz,not_implemented,3,0.1,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__AWF-C__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__AWF-B__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__AWF-D__default.csv.gz,ok,0,0.1,[lb_bench] mandelbrot fixed:AWF-D chunk=default P=8 steps=3/3 loop_time=0.0618954s checksum=10864106
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__mAF__default.csv.gz,ok,0,0.1,[lb_bench] mandelbrot fixed:mAF chunk=default P=8 steps=3/3 loop_time=0.0881139s checksum=10864106
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__GSS__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__SS__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__AutoLLVM__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__mAF__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__TSS__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__mFAC2__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__StaticSteal__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__STATIC__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__AWF-E__exp.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:32:16,daniel-m1/chunks/mandelbrot__AWF-B__default.csv.gz,ok,0,0.1,[lb_bench] mandelbrot fixed:AWF-B chunk=default P=8 steps=3/3 loop_time=0.0779522s checksum=10864106
