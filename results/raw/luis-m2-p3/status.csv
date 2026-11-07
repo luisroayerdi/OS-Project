@@ -1,0 +1,265 @@
+time,job,status,exit_code,wall_s,message
+2026-11-06T18:44:32,luis-m2-p3/fixed/tc__fixed-GSS__exp__rep0.csv.gz,not_implemented,3,0.2,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:45:17,luis-m2-p3/rl/stream__qlearn-LIB__default__rep0.csv.gz,ok,0,44.9,[lb_bench] stream qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=44.8729s checksum=7168.0
+2026-11-06T18:45:17,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.9__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:45:17,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.1__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:45:17,luis-m2-p3/fixed/mandelbrot__fixed-SS__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:45:24,luis-m2-p3/rl/mandelbrot__qlearn-LT__default__rep0.csv.gz,ok,0,6.7,[lb_bench] mandelbrot qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=6.68045s checksum=10864106
+2026-11-06T18:46:53,luis-m2-p3/fixed/stream__fixed-SS__default__rep0.csv.gz,ok,0,89.6,[lb_bench] stream fixed:SS chunk=default P=8 steps=500/500 loop_time=89.5557s checksum=7168.0
+2026-11-06T18:46:53,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.5__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:46:53,luis-m2-p3/fixed/stream__fixed-STATIC__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:47:01,luis-m2-p3/rl/tc__sarsa-LIB__default__rep0.csv.gz,ok,0,8.1,[lb_bench] tc sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=8.03739s checksum=2846024
+2026-11-06T18:47:09,luis-m2-p3/fixed/mandelbrot__fixed-SS__default__rep0.csv.gz,ok,0,8.1,[lb_bench] mandelbrot fixed:SS chunk=default P=8 steps=500/500 loop_time=8.09712s checksum=10864106
+2026-11-06T18:47:18,luis-m2-p3/fixed/tc__fixed-GSS__default__rep0.csv.gz,ok,0,8.8,[lb_bench] tc fixed:GSS chunk=default P=8 steps=500/500 loop_time=8.78944s checksum=2846024
+2026-11-06T18:47:18,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.9__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:47:18,luis-m2-p3/fixed/mandelbrot__fixed-GSS__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:47:18,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.1__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:47:18,luis-m2-p3/rl/tc__qlearn-LT__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:47:18,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.9__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:48:01,luis-m2-p3/rl/stream__sarsa-LIB__default__rep0.csv.gz,ok,0,42.5,[lb_bench] stream sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=42.4808s checksum=7168.0
+2026-11-06T18:48:01,luis-m2-p3/rl/mandelbrot__sarsa-LIB__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:48:01,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.5__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:48:12,luis-m2-p3/fixed/tc__fixed-STATIC__default__rep0.csv.gz,ok,0,11.8,[lb_bench] tc fixed:STATIC chunk=default P=8 steps=500/500 loop_time=11.7059s checksum=2846024
+2026-11-06T18:48:13,luis-m2-p3/rl/stream__qlearn-LT__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:48:13,luis-m2-p3/fixed/stream__fixed-STATIC__default__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:STATIC chunk=default P=8 steps=500/500 loop_time=0.839769s checksum=7168.0
+2026-11-06T18:48:13,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.1__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:48:13,luis-m2-p3/rl/stream__qlearn-LIB__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:48:22,luis-m2-p3/rl/tc__qlearn-LT__default__rep0.csv.gz,ok,0,8.2,[lb_bench] tc qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=8.19025s checksum=2846024
+2026-11-06T18:48:26,luis-m2-p3/fixed/tc__fixed-SS__default__rep0.csv.gz,ok,0,4.7,[lb_bench] tc fixed:SS chunk=default P=8 steps=500/500 loop_time=4.67501s checksum=2846024
+2026-11-06T18:48:31,luis-m2-p3/fixed/mandelbrot__fixed-GSS__default__rep0.csv.gz,ok,0,5.1,[lb_bench] mandelbrot fixed:GSS chunk=default P=8 steps=500/500 loop_time=5.09041s checksum=10864106
+2026-11-06T18:48:31,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.5__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:48:38,luis-m2-p3/rl/mandelbrot__sarsa-LIB__default__rep0.csv.gz,ok,0,6.8,[lb_bench] mandelbrot sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=6.78281s checksum=10864106
+2026-11-06T18:48:45,luis-m2-p3/rl/mandelbrot__qlearn-LIB__default__rep0.csv.gz,ok,0,6.5,[lb_bench] mandelbrot qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=6.53825s checksum=10864106
+2026-11-06T18:48:45,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.9__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:48:53,luis-m2-p3/rl/tc__qlearn-LIB__default__rep0.csv.gz,ok,0,8.0,[lb_bench] tc qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=7.9641s checksum=2846024
+2026-11-06T18:48:53,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.9__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:01,luis-m2-p3/rl/tc__sarsa-LT__default__rep0.csv.gz,ok,0,8.2,[lb_bench] tc sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=8.13528s checksum=2846024
+2026-11-06T18:49:08,luis-m2-p3/rl/mandelbrot__sarsa-LT__default__rep0.csv.gz,ok,0,6.7,[lb_bench] mandelbrot sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=6.71681s checksum=10864106
+2026-11-06T18:49:08,luis-m2-p3/fixed/stream__fixed-SS__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:08,luis-m2-p3/rl/tc__sarsa-LIB__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:08,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.1__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:08,luis-m2-p3/rl/tc__qlearn-LIB__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:08,luis-m2-p3/rl/mandelbrot__qlearn-LIB__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:08,luis-m2-p3/rl/tc__sarsa-LT__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:08,luis-m2-p3/fixed/tc__fixed-STATIC__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:09,luis-m2-p3/fixed/stream__fixed-GSS__default__rep0.csv.gz,ok,0,0.9,[lb_bench] stream fixed:GSS chunk=default P=8 steps=500/500 loop_time=0.855855s checksum=7168.0
+2026-11-06T18:49:09,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.1__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:09,luis-m2-p3/fixed/mandelbrot__fixed-STATIC__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:09,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.5__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:09,luis-m2-p3/rl/mandelbrot__qlearn-LT__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:09,luis-m2-p3/rl/stream__sarsa-LIB__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:09,luis-m2-p3/fixed/tc__fixed-SS__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:42,luis-m2-p3/rl/stream__qlearn-LT__default__rep0.csv.gz,ok,0,33.0,[lb_bench] stream qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=33.0246s checksum=7168.0
+2026-11-06T18:49:42,luis-m2-p3/rl/mandelbrot__sarsa-LT__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:49:42,luis-m2-p3/fixed/stream__fixed-GSS__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:50:16,luis-m2-p3/rl/stream__sarsa-LT__default__rep0.csv.gz,ok,0,34.0,[lb_bench] stream sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=33.954s checksum=7168.0
+2026-11-06T18:50:16,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.1__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:50:16,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.9__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:50:16,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.5__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:50:24,luis-m2-p3/fixed/mandelbrot__fixed-STATIC__default__rep0.csv.gz,ok,0,7.9,[lb_bench] mandelbrot fixed:STATIC chunk=default P=8 steps=500/500 loop_time=7.87896s checksum=10864106
+2026-11-06T18:50:24,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.5__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:50:24,luis-m2-p3/rl/stream__sarsa-LT__exp__rep0.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:50:24,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.5__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:50:24,luis-m2-p3/fixed/tc__fixed-SS__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:50:31,luis-m2-p3/rl/mandelbrot__qlearn-LIB__default__rep1.csv.gz,ok,0,6.8,[lb_bench] mandelbrot qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=6.75546s checksum=10864106
+2026-11-06T18:50:31,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.1__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:51:20,luis-m2-p3/rl/stream__qlearn-LT__default__rep1.csv.gz,ok,0,49.8,[lb_bench] stream qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=49.7947s checksum=7168.0
+2026-11-06T18:51:20,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.9__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:51:32,luis-m2-p3/fixed/tc__fixed-STATIC__default__rep1.csv.gz,ok,0,11.8,[lb_bench] tc fixed:STATIC chunk=default P=8 steps=500/500 loop_time=11.7876s checksum=2846024
+2026-11-06T18:51:32,luis-m2-p3/rl/stream__sarsa-LT__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:52:01,luis-m2-p3/rl/stream__qlearn-LIB__default__rep1.csv.gz,ok,0,28.5,[lb_bench] stream qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=28.4415s checksum=7168.0
+2026-11-06T18:52:01,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.1__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:52:01,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.5__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:52:01,luis-m2-p3/rl/tc__sarsa-LT__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:52:01,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.9__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:52:01,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.9__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:52:01,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.5__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:52:01,luis-m2-p3/fixed/stream__fixed-GSS__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:52:10,luis-m2-p3/fixed/tc__fixed-GSS__default__rep1.csv.gz,ok,0,8.7,[lb_bench] tc fixed:GSS chunk=default P=8 steps=500/500 loop_time=8.66963s checksum=2846024
+2026-11-06T18:53:40,luis-m2-p3/fixed/stream__fixed-SS__default__rep1.csv.gz,truncated,0,90.1,[lb_bench] stream fixed:SS chunk=default P=8 steps=327/500 loop_time=90.0919s checksum=7168.0 TRUNCATED(max-seconds)
+2026-11-06T18:53:40,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.1__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:53:40,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.5__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:53:46,luis-m2-p3/rl/mandelbrot__sarsa-LIB__default__rep1.csv.gz,ok,0,6.6,[lb_bench] mandelbrot sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=6.55897s checksum=10864106
+2026-11-06T18:53:46,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.9__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:53:51,luis-m2-p3/fixed/tc__fixed-SS__default__rep1.csv.gz,ok,0,4.7,[lb_bench] tc fixed:SS chunk=default P=8 steps=500/500 loop_time=4.5951s checksum=2846024
+2026-11-06T18:53:59,luis-m2-p3/rl/tc__qlearn-LIB__default__rep1.csv.gz,ok,0,8.1,[lb_bench] tc qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=8.02314s checksum=2846024
+2026-11-06T18:54:06,luis-m2-p3/rl/mandelbrot__sarsa-LT__default__rep1.csv.gz,ok,0,6.8,[lb_bench] mandelbrot sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=6.77391s checksum=10864106
+2026-11-06T18:54:06,luis-m2-p3/rl/stream__qlearn-LIB__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:54:06,luis-m2-p3/rl/mandelbrot__sarsa-LT__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:54:06,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.9__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:54:06,luis-m2-p3/rl/tc__qlearn-LIB__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:54:06,luis-m2-p3/rl/tc__qlearn-LT__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:54:14,luis-m2-p3/fixed/mandelbrot__fixed-SS__default__rep1.csv.gz,ok,0,7.9,[lb_bench] mandelbrot fixed:SS chunk=default P=8 steps=500/500 loop_time=7.8484s checksum=10864106
+2026-11-06T18:54:20,luis-m2-p3/rl/mandelbrot__qlearn-LT__default__rep1.csv.gz,ok,0,6.7,[lb_bench] mandelbrot qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=6.71802s checksum=10864106
+2026-11-06T18:54:20,luis-m2-p3/rl/tc__sarsa-LIB__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:54:49,luis-m2-p3/rl/stream__sarsa-LIB__default__rep1.csv.gz,ok,0,28.9,[lb_bench] stream sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=28.8986s checksum=7168.0
+2026-11-06T18:54:49,luis-m2-p3/rl/stream__qlearn-LT__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:54:49,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.5__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:54:49,luis-m2-p3/fixed/stream__fixed-STATIC__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:54:58,luis-m2-p3/rl/tc__sarsa-LIB__default__rep1.csv.gz,ok,0,8.2,[lb_bench] tc sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=8.15087s checksum=2846024
+2026-11-06T18:54:58,luis-m2-p3/fixed/stream__fixed-SS__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:54:59,luis-m2-p3/fixed/stream__fixed-STATIC__default__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:STATIC chunk=default P=8 steps=500/500 loop_time=0.870372s checksum=7168.0
+2026-11-06T18:54:59,luis-m2-p3/fixed/mandelbrot__fixed-GSS__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:55:06,luis-m2-p3/fixed/mandelbrot__fixed-STATIC__default__rep1.csv.gz,ok,0,7.1,[lb_bench] mandelbrot fixed:STATIC chunk=default P=8 steps=500/500 loop_time=7.03784s checksum=10864106
+2026-11-06T18:56:04,luis-m2-p3/rl/stream__sarsa-LT__default__rep1.csv.gz,ok,0,58.2,[lb_bench] stream sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=58.1401s checksum=7168.0
+2026-11-06T18:56:04,luis-m2-p3/rl/mandelbrot__qlearn-LT__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:09,luis-m2-p3/fixed/mandelbrot__fixed-GSS__default__rep1.csv.gz,ok,0,5.1,[lb_bench] mandelbrot fixed:GSS chunk=default P=8 steps=500/500 loop_time=5.09676s checksum=10864106
+2026-11-06T18:56:09,luis-m2-p3/fixed/mandelbrot__fixed-SS__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:17,luis-m2-p3/rl/tc__sarsa-LT__default__rep1.csv.gz,ok,0,8.3,[lb_bench] tc sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=8.27407s checksum=2846024
+2026-11-06T18:56:17,luis-m2-p3/rl/stream__sarsa-LIB__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:17,luis-m2-p3/fixed/tc__fixed-GSS__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:18,luis-m2-p3/fixed/stream__fixed-GSS__default__rep1.csv.gz,ok,0,0.9,[lb_bench] stream fixed:GSS chunk=default P=8 steps=500/500 loop_time=0.862495s checksum=7168.0
+2026-11-06T18:56:18,luis-m2-p3/rl/mandelbrot__qlearn-LIB__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:18,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.1__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:18,luis-m2-p3/fixed/tc__fixed-STATIC__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:18,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.1__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:18,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.1__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:18,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.9__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:18,luis-m2-p3/rl/mandelbrot__sarsa-LIB__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:26,luis-m2-p3/rl/tc__qlearn-LT__default__rep1.csv.gz,ok,0,8.1,[lb_bench] tc qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=8.05066s checksum=2846024
+2026-11-06T18:56:26,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.5__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:26,luis-m2-p3/fixed/mandelbrot__fixed-STATIC__exp__rep1.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:26,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.9__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:26,luis-m2-p3/fixed/mandelbrot__fixed-SS__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:26,luis-m2-p3/rl/stream__sarsa-LIB__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:26,luis-m2-p3/rl/tc__qlearn-LIB__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:26,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.1__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:26,luis-m2-p3/fixed/stream__fixed-GSS__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:26,luis-m2-p3/fixed/tc__fixed-STATIC__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:32,luis-m2-p3/fixed/mandelbrot__fixed-GSS__default__rep2.csv.gz,ok,0,5.2,[lb_bench] mandelbrot fixed:GSS chunk=default P=8 steps=500/500 loop_time=5.19086s checksum=10864106
+2026-11-06T18:56:32,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.1__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:56:38,luis-m2-p3/rl/mandelbrot__qlearn-LT__default__rep2.csv.gz,ok,0,6.6,[lb_bench] mandelbrot qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=6.61115s checksum=10864106
+2026-11-06T18:57:10,luis-m2-p3/rl/stream__sarsa-LIB__default__rep2.csv.gz,ok,0,31.5,[lb_bench] stream sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=31.4365s checksum=7168.0
+2026-11-06T18:57:10,luis-m2-p3/fixed/tc__fixed-SS__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:10,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.5__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:18,luis-m2-p3/fixed/mandelbrot__fixed-SS__default__rep2.csv.gz,ok,0,7.9,[lb_bench] mandelbrot fixed:SS chunk=default P=8 steps=500/500 loop_time=7.86925s checksum=10864106
+2026-11-06T18:57:18,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.5__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:57:51,luis-m2-p3/rl/stream__qlearn-LT__default__rep2.csv.gz,ok,0,33.2,[lb_bench] stream qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=33.2273s checksum=7168.0
+2026-11-06T18:58:23,luis-m2-p3/rl/stream__sarsa-LT__default__rep2.csv.gz,ok,0,31.7,[lb_bench] stream sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=31.7174s checksum=7168.0
+2026-11-06T18:58:23,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.5__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:58:23,luis-m2-p3/fixed/mandelbrot__fixed-STATIC__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:58:23,luis-m2-p3/rl/tc__sarsa-LT__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:58:23,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.5__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:58:23,luis-m2-p3/fixed/stream__fixed-SS__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:58:23,luis-m2-p3/rl/stream__qlearn-LT__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:58:23,luis-m2-p3/rl/mandelbrot__sarsa-LT__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:58:31,luis-m2-p3/fixed/tc__fixed-GSS__default__rep2.csv.gz,ok,0,8.7,[lb_bench] tc fixed:GSS chunk=default P=8 steps=500/500 loop_time=8.61138s checksum=2846024
+2026-11-06T18:58:31,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.9__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:58:31,luis-m2-p3/fixed/tc__fixed-GSS__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:58:31,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.9__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:58:31,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.5__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T18:58:43,luis-m2-p3/fixed/tc__fixed-STATIC__default__rep2.csv.gz,ok,0,11.2,[lb_bench] tc fixed:STATIC chunk=default P=8 steps=500/500 loop_time=11.1833s checksum=2846024
+2026-11-06T18:58:43,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.9-g0.9__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:00:13,luis-m2-p3/fixed/stream__fixed-SS__default__rep2.csv.gz,truncated,0,90.0,[lb_bench] stream fixed:SS chunk=default P=8 steps=496/500 loop_time=90.0074s checksum=7168.0 TRUNCATED(max-seconds)
+2026-11-06T19:00:13,luis-m2-p3/rl/tc__sarsa-LIB__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:00:13,luis-m2-p3/rl/stream__sarsa-LT__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:00:17,luis-m2-p3/fixed/tc__fixed-SS__default__rep2.csv.gz,ok,0,4.6,[lb_bench] tc fixed:SS chunk=default P=8 steps=500/500 loop_time=4.59508s checksum=2846024
+2026-11-06T19:00:24,luis-m2-p3/rl/mandelbrot__qlearn-LIB__default__rep2.csv.gz,ok,0,6.7,[lb_bench] mandelbrot qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=6.65295s checksum=10864106
+2026-11-06T19:00:24,luis-m2-p3/rl/stream__qlearn-LIB__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:00:32,luis-m2-p3/rl/tc__qlearn-LIB__default__rep2.csv.gz,ok,0,8.5,[lb_bench] tc qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=8.4124s checksum=2846024
+2026-11-06T19:00:33,luis-m2-p3/fixed/stream__fixed-GSS__default__rep2.csv.gz,ok,0,0.9,[lb_bench] stream fixed:GSS chunk=default P=8 steps=500/500 loop_time=0.867854s checksum=7168.0
+2026-11-06T19:00:40,luis-m2-p3/rl/mandelbrot__sarsa-LIB__default__rep2.csv.gz,ok,0,6.8,[lb_bench] mandelbrot sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=6.7619s checksum=10864106
+2026-11-06T19:00:40,luis-m2-p3/rl/tc__qlearn-LT__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:00:40,luis-m2-p3/rl/mandelbrot__qlearn-LIB__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:00:48,luis-m2-p3/rl/tc__qlearn-LT__default__rep2.csv.gz,ok,0,8.3,[lb_bench] tc qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=8.23076s checksum=2846024
+2026-11-06T19:00:48,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.1__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:00:48,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.5-g0.5__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:00:48,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.1-g0.1__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:00:56,luis-m2-p3/fixed/mandelbrot__fixed-STATIC__default__rep2.csv.gz,ok,0,7.1,[lb_bench] mandelbrot fixed:STATIC chunk=default P=8 steps=500/500 loop_time=7.08224s checksum=10864106
+2026-11-06T19:00:56,luis-m2-p3/rl_sweep/mandelbrot__qlearn-LT-a0.1-g0.9__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:01:04,luis-m2-p3/rl/tc__sarsa-LT__default__rep2.csv.gz,ok,0,8.2,[lb_bench] tc sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=8.11393s checksum=2846024
+2026-11-06T19:01:10,luis-m2-p3/rl/mandelbrot__sarsa-LT__default__rep2.csv.gz,ok,0,6.8,[lb_bench] mandelbrot sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=6.74898s checksum=10864106
+2026-11-06T19:01:19,luis-m2-p3/rl/tc__sarsa-LIB__default__rep2.csv.gz,ok,0,8.3,[lb_bench] tc sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=8.26229s checksum=2846024
+2026-11-06T19:01:19,luis-m2-p3/fixed/mandelbrot__fixed-GSS__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:03,luis-m2-p3/rl/stream__qlearn-LIB__default__rep2.csv.gz,ok,0,43.8,[lb_bench] stream qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=43.7745s checksum=7168.0
+2026-11-06T19:02:03,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.5-g0.1__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:03,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.9__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:03,luis-m2-p3/rl/mandelbrot__sarsa-LIB__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:03,luis-m2-p3/fixed/stream__fixed-STATIC__default__rep2.csv.gz,ok,0,0.9,[lb_bench] stream fixed:STATIC chunk=default P=8 steps=500/500 loop_time=0.874995s checksum=7168.0
+2026-11-06T19:02:03,luis-m2-p3/fixed/stream__fixed-STATIC__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:04,luis-m2-p3/rl_sweep/mandelbrot__sarsa-LT-a0.9-g0.1__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:04,luis-m2-p3/rl/mandelbrot__qlearn-LT__exp__rep2.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:04,luis-m2-p3/rl/stream__sarsa-LT__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:04,luis-m2-p3/rl/stream__qlearn-LIB__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:04,luis-m2-p3/rl/tc__sarsa-LIB__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:04,luis-m2-p3/fixed/tc__fixed-STATIC__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:04,luis-m2-p3/rl/mandelbrot__sarsa-LIB__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:04,luis-m2-p3/fixed/mandelbrot__fixed-STATIC__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:04,luis-m2-p3/fixed/tc__fixed-SS__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:02:33,luis-m2-p3/rl/stream__sarsa-LIB__default__rep3.csv.gz,ok,0,29.1,[lb_bench] stream sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=29.0883s checksum=7168.0
+2026-11-06T19:02:33,luis-m2-p3/rl/mandelbrot__qlearn-LT__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:03:21,luis-m2-p3/rl/stream__qlearn-LT__default__rep3.csv.gz,ok,0,48.3,[lb_bench] stream qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=48.2845s checksum=7168.0
+2026-11-06T19:03:50,luis-m2-p3/rl/stream__qlearn-LIB__default__rep3.csv.gz,ok,0,28.9,[lb_bench] stream qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=28.8653s checksum=7168.0
+2026-11-06T19:03:58,luis-m2-p3/rl/tc__qlearn-LT__default__rep3.csv.gz,ok,0,8.4,[lb_bench] tc qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=8.33341s checksum=2846024
+2026-11-06T19:04:05,luis-m2-p3/rl/mandelbrot__sarsa-LT__default__rep3.csv.gz,ok,0,6.9,[lb_bench] mandelbrot sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=6.90998s checksum=10864106
+2026-11-06T19:04:12,luis-m2-p3/rl/mandelbrot__qlearn-LT__default__rep3.csv.gz,ok,0,6.7,[lb_bench] mandelbrot qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=6.67127s checksum=10864106
+2026-11-06T19:04:19,luis-m2-p3/fixed/mandelbrot__fixed-STATIC__default__rep3.csv.gz,ok,0,7.1,[lb_bench] mandelbrot fixed:STATIC chunk=default P=8 steps=500/500 loop_time=7.10183s checksum=10864106
+2026-11-06T19:04:24,luis-m2-p3/fixed/tc__fixed-SS__default__rep3.csv.gz,ok,0,4.7,[lb_bench] tc fixed:SS chunk=default P=8 steps=500/500 loop_time=4.60193s checksum=2846024
+2026-11-06T19:04:24,luis-m2-p3/rl/tc__sarsa-LT__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:04:32,luis-m2-p3/fixed/mandelbrot__fixed-SS__default__rep3.csv.gz,ok,0,7.9,[lb_bench] mandelbrot fixed:SS chunk=default P=8 steps=500/500 loop_time=7.90777s checksum=10864106
+2026-11-06T19:04:32,luis-m2-p3/fixed/stream__fixed-SS__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:06:02,luis-m2-p3/fixed/stream__fixed-SS__default__rep3.csv.gz,truncated,0,90.2,[lb_bench] stream fixed:SS chunk=default P=8 steps=497/500 loop_time=90.156s checksum=7168.0 TRUNCATED(max-seconds)
+2026-11-06T19:06:02,luis-m2-p3/rl/stream__qlearn-LT__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:06:11,luis-m2-p3/fixed/tc__fixed-GSS__default__rep3.csv.gz,ok,0,8.8,[lb_bench] tc fixed:GSS chunk=default P=8 steps=500/500 loop_time=8.71773s checksum=2846024
+2026-11-06T19:07:00,luis-m2-p3/rl/stream__sarsa-LT__default__rep3.csv.gz,ok,0,49.2,[lb_bench] stream sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=49.181s checksum=7168.0
+2026-11-06T19:07:11,luis-m2-p3/fixed/tc__fixed-STATIC__default__rep3.csv.gz,ok,0,11.6,[lb_bench] tc fixed:STATIC chunk=default P=8 steps=500/500 loop_time=11.5551s checksum=2846024
+2026-11-06T19:07:11,luis-m2-p3/fixed/tc__fixed-GSS__exp__rep3.csv.gz,not_implemented,3,0.1,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:07:12,luis-m2-p3/rl/mandelbrot__sarsa-LT__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:07:12,luis-m2-p3/rl/mandelbrot__qlearn-LIB__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:07:12,luis-m2-p3/fixed/stream__fixed-STATIC__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:07:12,luis-m2-p3/fixed/stream__fixed-STATIC__default__rep3.csv.gz,ok,0,0.9,[lb_bench] stream fixed:STATIC chunk=default P=8 steps=500/500 loop_time=0.85495s checksum=7168.0
+2026-11-06T19:07:21,luis-m2-p3/rl/tc__qlearn-LIB__default__rep3.csv.gz,ok,0,8.4,[lb_bench] tc qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=8.38394s checksum=2846024
+2026-11-06T19:07:21,luis-m2-p3/fixed/mandelbrot__fixed-SS__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:07:21,luis-m2-p3/rl/tc__qlearn-LIB__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:07:21,luis-m2-p3/rl/tc__qlearn-LT__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:07:21,luis-m2-p3/fixed/mandelbrot__fixed-GSS__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:07:28,luis-m2-p3/rl/mandelbrot__qlearn-LIB__default__rep3.csv.gz,ok,0,6.9,[lb_bench] mandelbrot qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=6.86477s checksum=10864106
+2026-11-06T19:07:34,luis-m2-p3/rl/mandelbrot__sarsa-LIB__default__rep3.csv.gz,ok,0,6.6,[lb_bench] mandelbrot sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=6.62051s checksum=10864106
+2026-11-06T19:07:43,luis-m2-p3/rl/tc__sarsa-LIB__default__rep3.csv.gz,ok,0,8.2,[lb_bench] tc sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=8.13723s checksum=2846024
+2026-11-06T19:07:51,luis-m2-p3/rl/tc__sarsa-LT__default__rep3.csv.gz,ok,0,8.1,[lb_bench] tc sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=8.03839s checksum=2846024
+2026-11-06T19:07:51,luis-m2-p3/fixed/stream__fixed-GSS__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:07:56,luis-m2-p3/fixed/mandelbrot__fixed-GSS__default__rep3.csv.gz,ok,0,5.1,[lb_bench] mandelbrot fixed:GSS chunk=default P=8 steps=500/500 loop_time=5.11103s checksum=10864106
+2026-11-06T19:07:56,luis-m2-p3/rl/stream__sarsa-LIB__exp__rep3.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:07:57,luis-m2-p3/fixed/stream__fixed-GSS__default__rep3.csv.gz,ok,0,0.9,[lb_bench] stream fixed:GSS chunk=default P=8 steps=500/500 loop_time=0.859216s checksum=7168.0
+2026-11-06T19:07:57,luis-m2-p3/rl/stream__sarsa-LIB__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:08:38,luis-m2-p3/rl/stream__qlearn-LIB__default__rep4.csv.gz,ok,0,41.7,[lb_bench] stream qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=41.7264s checksum=7168.0
+2026-11-06T19:10:09,luis-m2-p3/fixed/stream__fixed-SS__default__rep4.csv.gz,truncated,0,90.1,[lb_bench] stream fixed:SS chunk=default P=8 steps=343/500 loop_time=90.1004s checksum=7168.0 TRUNCATED(max-seconds)
+2026-11-06T19:10:09,luis-m2-p3/rl/tc__sarsa-LIB__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:10:09,luis-m2-p3/fixed/stream__fixed-STATIC__default__rep4.csv.gz,ok,0,0.9,[lb_bench] stream fixed:STATIC chunk=default P=8 steps=500/500 loop_time=0.847031s checksum=7168.0
+2026-11-06T19:10:10,luis-m2-p3/rl/tc__qlearn-LT__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:10:10,luis-m2-p3/fixed/mandelbrot__fixed-SS__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:10:10,luis-m2-p3/rl/mandelbrot__qlearn-LIB__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:10:14,luis-m2-p3/fixed/tc__fixed-SS__default__rep4.csv.gz,ok,0,4.7,[lb_bench] tc fixed:SS chunk=default P=8 steps=500/500 loop_time=4.67829s checksum=2846024
+2026-11-06T19:10:14,luis-m2-p3/rl/stream__qlearn-LIB__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:10:49,luis-m2-p3/rl/stream__qlearn-LT__default__rep4.csv.gz,ok,0,35.0,[lb_bench] stream qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=35.0172s checksum=7168.0
+2026-11-06T19:10:49,luis-m2-p3/fixed/tc__fixed-STATIC__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:10:49,luis-m2-p3/fixed/stream__fixed-STATIC__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:10:57,luis-m2-p3/rl/tc__sarsa-LIB__default__rep4.csv.gz,ok,0,8.0,[lb_bench] tc sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=7.99506s checksum=2846024
+2026-11-06T19:11:06,luis-m2-p3/fixed/tc__fixed-GSS__default__rep4.csv.gz,ok,0,8.7,[lb_bench] tc fixed:GSS chunk=default P=8 steps=500/500 loop_time=8.6596s checksum=2846024
+2026-11-06T19:11:14,luis-m2-p3/rl/tc__qlearn-LT__default__rep4.csv.gz,ok,0,8.2,[lb_bench] tc qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=8.09764s checksum=2846024
+2026-11-06T19:11:14,luis-m2-p3/fixed/tc__fixed-GSS__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:11:22,luis-m2-p3/fixed/mandelbrot__fixed-SS__default__rep4.csv.gz,ok,0,7.9,[lb_bench] mandelbrot fixed:SS chunk=default P=8 steps=500/500 loop_time=7.84589s checksum=10864106
+2026-11-06T19:11:23,luis-m2-p3/fixed/stream__fixed-GSS__default__rep4.csv.gz,ok,0,0.9,[lb_bench] stream fixed:GSS chunk=default P=8 steps=500/500 loop_time=0.859s checksum=7168.0
+2026-11-06T19:11:30,luis-m2-p3/rl/mandelbrot__qlearn-LT__default__rep4.csv.gz,ok,0,6.6,[lb_bench] mandelbrot qlearn chunk=default reward=LT P=8 steps=500/500 loop_time=6.61971s checksum=10864106
+2026-11-06T19:11:41,luis-m2-p3/fixed/tc__fixed-STATIC__default__rep4.csv.gz,ok,0,11.8,[lb_bench] tc fixed:STATIC chunk=default P=8 steps=500/500 loop_time=11.7806s checksum=2846024
+2026-11-06T19:11:49,luis-m2-p3/fixed/mandelbrot__fixed-STATIC__default__rep4.csv.gz,ok,0,7.1,[lb_bench] mandelbrot fixed:STATIC chunk=default P=8 steps=500/500 loop_time=7.13787s checksum=10864106
+2026-11-06T19:11:55,luis-m2-p3/rl/mandelbrot__sarsa-LIB__default__rep4.csv.gz,ok,0,6.7,[lb_bench] mandelbrot sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=6.71605s checksum=10864106
+2026-11-06T19:11:55,luis-m2-p3/rl/tc__sarsa-LT__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:11:55,luis-m2-p3/rl/mandelbrot__qlearn-LT__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:11:55,luis-m2-p3/fixed/mandelbrot__fixed-STATIC__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:11:55,luis-m2-p3/fixed/mandelbrot__fixed-GSS__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:12:04,luis-m2-p3/rl/tc__qlearn-LIB__default__rep4.csv.gz,ok,0,8.1,[lb_bench] tc qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=8.05122s checksum=2846024
+2026-11-06T19:12:04,luis-m2-p3/fixed/tc__fixed-SS__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:12:12,luis-m2-p3/rl/tc__sarsa-LT__default__rep4.csv.gz,ok,0,8.2,[lb_bench] tc sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=8.12952s checksum=2846024
+2026-11-06T19:12:18,luis-m2-p3/rl/mandelbrot__sarsa-LT__default__rep4.csv.gz,ok,0,6.6,[lb_bench] mandelbrot sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=6.5909s checksum=10864106
+2026-11-06T19:12:18,luis-m2-p3/rl/mandelbrot__sarsa-LT__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:12:18,luis-m2-p3/rl/stream__sarsa-LT__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:12:23,luis-m2-p3/fixed/mandelbrot__fixed-GSS__default__rep4.csv.gz,ok,0,5.1,[lb_bench] mandelbrot fixed:GSS chunk=default P=8 steps=500/500 loop_time=5.10516s checksum=10864106
+2026-11-06T19:12:23,luis-m2-p3/fixed/stream__fixed-GSS__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:12:24,luis-m2-p3/rl/tc__qlearn-LIB__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:12:30,luis-m2-p3/rl/mandelbrot__qlearn-LIB__default__rep4.csv.gz,ok,0,6.8,[lb_bench] mandelbrot qlearn chunk=default reward=LIB P=8 steps=500/500 loop_time=6.81475s checksum=10864106
+2026-11-06T19:12:30,luis-m2-p3/rl/stream__qlearn-LT__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:13:02,luis-m2-p3/rl/stream__sarsa-LIB__default__rep4.csv.gz,ok,0,31.2,[lb_bench] stream sarsa chunk=default reward=LIB P=8 steps=500/500 loop_time=31.1468s checksum=7168.0
+2026-11-06T19:13:35,luis-m2-p3/rl/stream__sarsa-LT__default__rep4.csv.gz,ok,0,33.9,[lb_bench] stream sarsa chunk=default reward=LT P=8 steps=500/500 loop_time=33.8458s checksum=7168.0
+2026-11-06T19:13:35,luis-m2-p3/rl/mandelbrot__sarsa-LIB__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
+2026-11-06T19:13:35,luis-m2-p3/fixed/stream__fixed-SS__exp__rep4.csv.gz,not_implemented,3,0.0,[lb_bench] NOT IMPLEMENTED: exp_chunk (Member B)
