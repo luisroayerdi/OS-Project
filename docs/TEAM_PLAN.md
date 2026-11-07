@@ -6,7 +6,7 @@ Fill in names and machine labels first:
 |---|---|---|---|
 | Member A, Portfolio | _____ | _____ | _____ |
 | Member B, Expert selection | _____ | _____ | _____ |
-| Member C, RL selection | _____ | _____ | _____ |
+| Member C, RL selection | Luis Ayerdi-Morales | luis-m2 | Apple M2, 8 cores, 16 GB, macOS 15 |
 
 Ground rules:
 
@@ -113,5 +113,5 @@ Record every choice the paper does not pin down. These feed the "differences" se
 | | B | expChunk formula: … | |
 | | B | ExhaustiveSel re-trigger: … | |
 | | B | ExpertSel rules: … | |
-| | C | α-decay: subtractive / multiplicative, floor = … | |
-| | C | explore-first order: … | |
+| 2026-11-06 | C | α-decay: multiplicative, α ← max(0.01, α·(1−0.05)) once per greedy instance (after explore-first) | subtractive 0.05 would zero α after 10 instances (0.5/0.05) and freeze learning; not yet verified against the RL4OMP code (ref. [28]) |
+| 2026-11-06 | C | explore-first order: Eulerian circuit of complete digraph with self-loops (Hierholzer from node 0, out-edges in portfolio order); instances 0..K² play its K²+1 nodes, greedy (argmax Q, ties → lowest index) afterwards. Reward Eq. 11 uses min/max *including* the current instance; first instance has no state, so no update | covers every (s,a) once for any K; K² transitions = 144 for K = 12 |
